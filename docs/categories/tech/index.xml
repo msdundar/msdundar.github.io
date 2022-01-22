@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jan 2022 14:00:33 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 14:00:33 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSL/TLS Handshake, Hybrid Encryption and Public Key Infrastructure (PKI)</title>
+      <link>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</link>
+      <pubDate>Sat, 22 Jan 2022 14:00:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</guid>
+      <description>Hybrid Encryption: Symmetric and Asymmetric Encryption Combined Both symmetric and asymmetric encryption has advantages and disadvantages. So, which one should we use? Well, nowadays we often use them together. Asymmetric encryption is often used to exchange private keys between parties securely. In other words, parties who would communicate establish an asymmetric encryption protocol in the beginning just to exchange private keys. When the private key exchange is completed, they keep communicating by using symmetric encryption - which is faster than asymmetric encryption.</description>
+    </item>
+    
     <item>
       <title>Symmetric and Asymmetric Encryption</title>
       <link>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</link>
