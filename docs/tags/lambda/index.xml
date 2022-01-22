@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lambda on msdundar</title>
+    <link>https://www.serhatdundar.com/tags/lambda/</link>
+    <description>Recent content in lambda on msdundar</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jun 2021 22:50:45 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Canary Lambda Deployments</title>
+      <link>https://www.serhatdundar.com/posts/canary-lambda-deployments/</link>
+      <pubDate>Mon, 14 Jun 2021 22:50:45 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/canary-lambda-deployments/</guid>
+      <description>Lambdas aren&amp;rsquo;t easy. This isn&amp;rsquo;t just a provocative start, but instead my overall experience planning, creating, and deploying them.
+Let&amp;rsquo;s be honest, making something up and running requires plenty of AWS knowledge. One might get lost easily even inside IAM alone.
+IAM groups, IAM users, IAM roles, IAM group policy attachments, IAM policy documents, IAM role policies - and how they connect is confusing enough considering what Lambda promises, simplicity. And this is just IAM.</description>
+    </item>
+    
+    <item>
+      <title>Packing JS projects for AWS Lambda with Grunt</title>
+      <link>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</link>
+      <pubDate>Sat, 02 May 2020 20:40:46 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</guid>
+      <description>Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it&amp;rsquo;s also quite useful for packing JS projects for AWS Lambda.
+Install the CLI globally:
+npm install -g grunt-cli Add it to the package.json:
+npm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.
+A Gruntfile is comprised of the following parts:</description>
+    </item>
+    
+  </channel>
+</rss>

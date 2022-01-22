@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>yaml on msdundar</title>
+    <link>https://www.serhatdundar.com/tags/yaml/</link>
+    <description>Recent content in yaml on msdundar</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jun 2016 09:10:16 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boolean Type Words in Yaml</title>
+      <link>https://www.serhatdundar.com/posts/boolean-type-words-in-yaml/</link>
+      <pubDate>Tue, 07 Jun 2016 09:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/boolean-type-words-in-yaml/</guid>
+      <description>YAML is a widely used data serialization language. In almost any software project, or during any dev-ops tasks, you can come across with YAML. For example Ruby on Rails uses YAML for fixtures, configuration files and localization. CI/CD tools such as CircleCI and Travis also use YAML for configuration. If you ever experienced a strange behaviour with YAML, you may have used one of the many reserved words of YAML. YAML reserves some words such as &amp;lsquo;yes&amp;rsquo;, &amp;lsquo;no&amp;rsquo;, &amp;lsquo;y&amp;rsquo;, &amp;lsquo;n&amp;rsquo;, &amp;lsquo;off&amp;rsquo;, &amp;lsquo;on&amp;rsquo;, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

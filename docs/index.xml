@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>msdundar</title>
+    <link>https://www.serhatdundar.com/</link>
+    <description>Recent content on msdundar</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jan 2022 14:00:33 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Symmetric and Asymmetric Encryption</title>
+      <link>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</link>
+      <pubDate>Fri, 21 Jan 2022 14:00:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</guid>
+      <description>Symmetric Encryption (Private Key Cryptography) In symmetric encryption only a single key, in other words, a private key is used to encrypt and decrypt a message. Symmetric encryption is also known as &amp;ldquo;Private Key Cryptography&amp;rdquo; as the whole encryption is only based on a private key.
+Some popular symetric encryption algorithms are:
+   Algorithm Cipher Key Size Block/State Size Popularity Notes     AES Block 128, 192, or 256 bits 128 bits 1 The best one.</description>
+    </item>
+    
+    <item>
+      <title>Canary Lambda Deployments</title>
+      <link>https://www.serhatdundar.com/posts/canary-lambda-deployments/</link>
+      <pubDate>Mon, 14 Jun 2021 22:50:45 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/canary-lambda-deployments/</guid>
+      <description>Lambdas aren&amp;rsquo;t easy. This isn&amp;rsquo;t just a provocative start, but instead my overall experience planning, creating, and deploying them.
+Let&amp;rsquo;s be honest, making something up and running requires plenty of AWS knowledge. One might get lost easily even inside IAM alone.
+IAM groups, IAM users, IAM roles, IAM group policy attachments, IAM policy documents, IAM role policies - and how they connect is confusing enough considering what Lambda promises, simplicity. And this is just IAM.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: The Design of Web APIs</title>
+      <link>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</link>
+      <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</guid>
+      <description>Title: The Design of Web APIs ISBN: 9781617295102 Publisher: Manning WWW: https://www.manning.com/books/the-design-of-web-apis Pages: 389 I recently had a chance to read &amp;ldquo;The Design of Web APIs&amp;rdquo; from Manning Publishing. The book is inspired by &amp;ldquo;The Design of Everyday Things&amp;rdquo;, the legendary writing of Donald Norman, that I still own as an original hard-copy printed in 1990. I like this masterpiece not because I studied Donald Norman quite a lot during my PhD studies (especially during the Human-Computer Interaction course), but also it&amp;rsquo;s still very relevant writing.</description>
+    </item>
+    
+    <item>
+      <title>Packing JS projects for AWS Lambda with Grunt</title>
+      <link>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</link>
+      <pubDate>Sat, 02 May 2020 20:40:46 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</guid>
+      <description>Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it&amp;rsquo;s also quite useful for packing JS projects for AWS Lambda.
+Install the CLI globally:
+npm install -g grunt-cli Add it to the package.json:
+npm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.
+A Gruntfile is comprised of the following parts:</description>
+    </item>
+    
+    <item>
+      <title>Rails and PostgreSQL: Types</title>
+      <link>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</link>
+      <pubDate>Fri, 09 Nov 2018 19:24:20 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</guid>
+      <description>During nokul we&amp;rsquo;ve heavily implemented PostgreSQL features into our Rails application. Unfortunately, ActiveRecord doesn&amp;rsquo;t come with constraint support for PostgreSQL, but rein does a fantastic job covering what&amp;rsquo;s missing in ActiveRecord. We believe that, one shouldn&amp;rsquo;t rely on a web application, that is very prone for human-error, when it comes to data integrity. Therefore our PostgreSQL tables included various constraints and limits.
+Below you will find a set of rules that we&amp;rsquo;ve investigated, implemented and battle tested with various types.</description>
+    </item>
+    
+    <item>
+      <title>Rails and PostgreSQL: Constraints</title>
+      <link>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</link>
+      <pubDate>Sat, 03 Nov 2018 15:24:20 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</guid>
+      <description>During nokul we&amp;rsquo;ve heavily implemented PostgreSQL features into our Rails application. Unfortunately, ActiveRecord doesn&amp;rsquo;t come with constraint support for PostgreSQL, but rein does a fantastic job covering what&amp;rsquo;s missing in ActiveRecord. We believe that, one shouldn&amp;rsquo;t rely on a web application, that is very prone for human-error, when it comes to data integrity. Therefore our PostgreSQL tables included various constraints and limits.
+Below you will find a set of rules that we&amp;rsquo;ve investigated, implemented and battle tested with various types.</description>
+    </item>
+    
+    <item>
+      <title>Tuning PostgreSQL Configuration</title>
+      <link>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</link>
+      <pubDate>Fri, 02 Nov 2018 11:16:48 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</guid>
+      <description>Configuration File  RAM amounts defined below doesn&amp;rsquo;t represent the total amount of memory available for your machine, instead, it represents what PostgreSQL can use maximum. Decribed configuration requires PostgreSQL &amp;gt;= 10. Remove max_parallel_workers for older versions.  The configuration file is usually located at /etc/postgresql/$VERSION/main/postgresql.conf in Debian-derivatives. For locating the file in other operating systems, you can use psql as follows:
+psql -U postgres show config_file; Tracking Query Statistics Enable the pg_stat extension, if you are interested in tracking query statistics:</description>
+    </item>
+    
+    <item>
+      <title>Encrypting Sensitive Data With Rails</title>
+      <link>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</link>
+      <pubDate>Mon, 01 Oct 2018 09:33:06 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</guid>
+      <description>The most recent versions (5.1 and 5.2) of Ruby on Rails has shipped with a new feature named as encrypted credentials which replaces the secrets.yml, and enables you to keep sensitive data in an encrypted file named as config/credentials.yml.enc.
+However, this feature only works with a single file that is config/credentials.yml.enc. Recently we needed to add some data in our repository, which we wanted to keep as encrypted, but that also didn&amp;rsquo;t really fit into the credentials.</description>
+    </item>
+    
+    <item>
+      <title>Rails Instantiated Fixtures</title>
+      <link>https://www.serhatdundar.com/posts/rails-instantiated-fixtures/</link>
+      <pubDate>Wed, 03 May 2017 18:52:34 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/rails-instantiated-fixtures/</guid>
+      <description>Here is a sample Ruby on Rails fixture named as newsletter:
+newsletter: name: foo message: bar first_name: foo last_name: bar There are two popular ways to use this fixture in your Rails tests. The first one is directly calling the name of fixture file, followed by a symbol stating the name of any individual fixture:
+class NewsletterTest &amp;lt; ActiveSupport::TestCase test &amp;#39;a sample test&amp;#39; do assert newsletters(:newsletter).valid? end end And the other one is assigning fixtures to an instance variable in the setup block:</description>
+    </item>
+    
+    <item>
+      <title>Import Big MySQL Databases Faster</title>
+      <link>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</link>
+      <pubDate>Wed, 05 Apr 2017 11:44:19 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</guid>
+      <description>I recently had to import some quite large SQL dumps to my local machine for data analysis purposes. There were 10 different .sql dumps in total, and each of them were sized more than 100GB.
+Naive Attempt First of all, I tried to import each by using the &amp;lt; operator:
+mysql some_database &amp;lt; some_dump.sql Unsurprisingly, each task took very long to finish, approximately 6-7 hours per dump file, in a brand new laptop with i7 CPU, 16GB RAM and 1TB SSD.</description>
+    </item>
+    
+    <item>
+      <title>Running Rake Tasks in a Loop</title>
+      <link>https://www.serhatdundar.com/posts/running-rake-tasks-in-a-loop/</link>
+      <pubDate>Mon, 03 Apr 2017 01:46:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/running-rake-tasks-in-a-loop/</guid>
+      <description>Rake tasks in a loop, will only executed once if they are not &amp;ldquo;re-enabled&amp;rdquo;. Take a look at this example:
+namespace :yoksis do desc &amp;#39;fetches all references&amp;#39; task :references do mapping = { get_instruction_language: &amp;#39;UnitInstructionLanguage&amp;#39;, get_instruction_type: &amp;#39;UnitInstructionType&amp;#39; } mapping.each do |action, klass| Rake::Task[&amp;#39;yoksis:reference&amp;#39;].invoke(action, klass) end end desc &amp;#39;fetch an individual reference&amp;#39; task :reference, %i[soap_method klass] =&amp;gt; [:environment] do |_, args| puts args[:soap_method] puts args[:klass] end end When you run the yoksis:references task, it will only print out {get_instruction_language: &#39;UnitInstructionLanguage&#39;} and will skip the second item of the mapping hash.</description>
+    </item>
+    
+    <item>
+      <title>Using has_many :through for Nested Relations in Rails</title>
+      <link>https://www.serhatdundar.com/posts/using-has-many-through-for-nested-relations-in-rails/</link>
+      <pubDate>Sat, 20 Aug 2016 21:19:04 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/using-has-many-through-for-nested-relations-in-rails/</guid>
+      <description>has_many :through is a useful association type of Rails. It&amp;rsquo;s mostly popular and often used as a join model for many-to-many relations.
+However, has_many :through is more than a simple join model, because it conducts INNER JOIN(s) on related models. We can also take the advantage of this behaviour on nested has_many relations. Lets imagine a scenario where we have a nested has_many structure as follows:
+Country (has_many :regions) -&amp;gt; Region (has_many :cities) -&amp;gt; City (has_many :districts) -&amp;gt; District Models and tables of the structure:</description>
+    </item>
+    
+    <item>
+      <title>Boolean Type Words in Yaml</title>
+      <link>https://www.serhatdundar.com/posts/boolean-type-words-in-yaml/</link>
+      <pubDate>Tue, 07 Jun 2016 09:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/boolean-type-words-in-yaml/</guid>
+      <description>YAML is a widely used data serialization language. In almost any software project, or during any dev-ops tasks, you can come across with YAML. For example Ruby on Rails uses YAML for fixtures, configuration files and localization. CI/CD tools such as CircleCI and Travis also use YAML for configuration. If you ever experienced a strange behaviour with YAML, you may have used one of the many reserved words of YAML. YAML reserves some words such as &amp;lsquo;yes&amp;rsquo;, &amp;lsquo;no&amp;rsquo;, &amp;lsquo;y&amp;rsquo;, &amp;lsquo;n&amp;rsquo;, &amp;lsquo;off&amp;rsquo;, &amp;lsquo;on&amp;rsquo;, etc.</description>
+    </item>
+    
+    <item>
+      <title>Calculating Similarity Between Two Data With Ruby and Elasticsearch</title>
+      <link>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</link>
+      <pubDate>Tue, 08 Dec 2015 19:04:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</guid>
+      <description>I recently had to find similar data located in a dataset, in order to find potential duplicate records:
+&amp;quot;John Doe 123456789&amp;quot; &amp;quot;John Foe 123123123&amp;quot; After considering a couple of options, I&amp;rsquo;ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:
+file = File.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.serhatdundar.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.serhatdundar.com/about/</guid>
+      <description>About Me I&amp;rsquo;m Serhat, from Berlin. I&amp;rsquo;m blogging in this site about tech and life since 2010.
+My main interests are Ruby, Ruby on Rails, GoLang and AWS.</description>
+    </item>
+    
+  </channel>
+</rss>

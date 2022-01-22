@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rest on msdundar</title>
+    <link>https://www.serhatdundar.com/tags/rest/</link>
+    <description>Recent content in rest on msdundar</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 May 2021 20:10:16 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review: The Design of Web APIs</title>
+      <link>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</link>
+      <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</guid>
+      <description>Title: The Design of Web APIs ISBN: 9781617295102 Publisher: Manning WWW: https://www.manning.com/books/the-design-of-web-apis Pages: 389 I recently had a chance to read &amp;ldquo;The Design of Web APIs&amp;rdquo; from Manning Publishing. The book is inspired by &amp;ldquo;The Design of Everyday Things&amp;rdquo;, the legendary writing of Donald Norman, that I still own as an original hard-copy printed in 1990. I like this masterpiece not because I studied Donald Norman quite a lot during my PhD studies (especially during the Human-Computer Interaction course), but also it&amp;rsquo;s still very relevant writing.</description>
+    </item>
+    
+  </channel>
+</rss>

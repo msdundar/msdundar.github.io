@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>elasticsearch on msdundar</title>
+    <link>https://www.serhatdundar.com/tags/elasticsearch/</link>
+    <description>Recent content in elasticsearch on msdundar</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2015 19:04:50 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculating Similarity Between Two Data With Ruby and Elasticsearch</title>
+      <link>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</link>
+      <pubDate>Tue, 08 Dec 2015 19:04:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</guid>
+      <description>I recently had to find similar data located in a dataset, in order to find potential duplicate records:
+&amp;quot;John Doe 123456789&amp;quot; &amp;quot;John Foe 123123123&amp;quot; After considering a couple of options, I&amp;rsquo;ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:
+file = File.</description>
+    </item>
+    
+  </channel>
+</rss>
