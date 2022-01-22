@@ -37,13 +37,6 @@ params:
   description: "A blog-like personal notebook. Here I post things that I would like to visit and read later."
   images: ["<link or path of image for opengraph, twitter-cards>"] # TODO
 
-  # analytics
-  analytics:
-    bing:
-      SiteVerificationTag: "FB250DD9B2E012AE2926B862C67FF49A"
-    yandex:
-      SiteVerificationTag: "3df8f3ed69f19bcb"
-
   # theme settings
   defaultTheme: auto # dark, light
   disableThemeToggle: false
