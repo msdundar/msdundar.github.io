@@ -1,5 +1,5 @@
 baseURL: "https://www.serhatdundar.com/"
-title: msdundar
+title: Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security
 paginate: 20
 theme: PaperMod
 languageCode: en-us
