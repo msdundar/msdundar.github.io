@@ -13,11 +13,11 @@ file = File.">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <link rel=preload href=/apple-touch-icon.png as=image>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=16x16 href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=32x32 href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=apple-touch-icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=mask-icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon href=https://www.serhatdundar.com/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://www.serhatdundar.com/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://www.serhatdundar.com/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://www.serhatdundar.com/apple-touch-icon.png>
+<link rel=mask-icon href=https://www.serhatdundar.com/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.91.2">
@@ -42,7 +42,7 @@ file = File.">
 &#34;John Doe 123456789&#34; &#34;John Foe 123123123&#34; After considering a couple of options, I&rsquo;ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:
 file = File.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://www.serhatdundar.com/posts/"},{"@type":"ListItem","position":2,"name":"Calculating Similarity Between Two Data With Ruby and Elasticsearch","item":"https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Calculating Similarity Between Two Data With Ruby and Elasticsearch","name":"Calculating Similarity Between Two Data With Ruby and Elasticsearch","description":"I recently had to find similar data located in a dataset, in order to find potential duplicate records:\n\u0026quot;John Doe 123456789\u0026quot; \u0026quot;John Foe 123123123\u0026quot; After considering a couple of options, I\u0026rsquo;ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:\nfile = File.","keywords":["ruby","elasticsearch"],"articleBody":"I recently had to find similar data located in a dataset, in order to find potential duplicate records:\n\"John Doe 123456789\" \"John Foe 123123123\" After considering a couple of options, I’ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:\nfile = File.open(\"some_file_path\", \"w\") User.all.each do |u| r = User.search \"*#{u.full_name}*\" file.write(\"Searching for: #{u.id_number}-#{u.full_name}\\n\") r.records.each_with_hit {|r, hit|}.map{|k, v| \"#{k.id_number}-#{k.full_name}: #{v._score}\"}.each do |y| unless (u.id_number == y.split(\"-\")[0]) if y.split(\": \")[1].to_f  1.2 file.write(\" #{y}\\n\") end end end file.write(\"***********************************\\n\\n\") end The 1.2 value in the script can be adjusted according to your needs. It will basically represent how close two values are. You might choose to increase it, if you want your results to cover a wider range of records, or decrease it if you are only interested in values looking very similar. Here is a sample output for the script:\nSearching for: 11156069590-JOHN DOE WHITE 33304078456-JOHN DOE BROWN: 2.3747075 22256325768-JOHN DOE BLACK: 2.2594523 33315234436-JOHN DOE BLUE: 2.229414 33378500384-JOHN DOE RED: 2.146143 11171764882-JOHN DOE GRAY: 2.146143 55577374544-JOHN DOE PURPLE: 2.0586686 Searching for: 00027522389-JOHANNA DOE 00022785363-JOHANNA DOE: 1.4142135 Cheers.\n","wordCount":"204","inLanguage":"en","datePublished":"2015-12-08T19:04:50+02:00","dateModified":"2015-12-08T19:04:50+02:00","author":{"@type":"Person","name":"Serhat M. Dündar"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/"},"publisher":{"@type":"Organization","name":"msdundar","logo":{"@type":"ImageObject","url":"https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Calculating Similarity Between Two Data With Ruby and Elasticsearch","name":"Calculating Similarity Between Two Data With Ruby and Elasticsearch","description":"I recently had to find similar data located in a dataset, in order to find potential duplicate records:\n\u0026quot;John Doe 123456789\u0026quot; \u0026quot;John Foe 123123123\u0026quot; After considering a couple of options, I\u0026rsquo;ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:\nfile = File.","keywords":["ruby","elasticsearch"],"articleBody":"I recently had to find similar data located in a dataset, in order to find potential duplicate records:\n\"John Doe 123456789\" \"John Foe 123123123\" After considering a couple of options, I’ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:\nfile = File.open(\"some_file_path\", \"w\") User.all.each do |u| r = User.search \"*#{u.full_name}*\" file.write(\"Searching for: #{u.id_number}-#{u.full_name}\\n\") r.records.each_with_hit {|r, hit|}.map{|k, v| \"#{k.id_number}-#{k.full_name}: #{v._score}\"}.each do |y| unless (u.id_number == y.split(\"-\")[0]) if y.split(\": \")[1].to_f  1.2 file.write(\" #{y}\\n\") end end end file.write(\"***********************************\\n\\n\") end The 1.2 value in the script can be adjusted according to your needs. It will basically represent how close two values are. You might choose to increase it, if you want your results to cover a wider range of records, or decrease it if you are only interested in values looking very similar. Here is a sample output for the script:\nSearching for: 11156069590-JOHN DOE WHITE 33304078456-JOHN DOE BROWN: 2.3747075 22256325768-JOHN DOE BLACK: 2.2594523 33315234436-JOHN DOE BLUE: 2.229414 33378500384-JOHN DOE RED: 2.146143 11171764882-JOHN DOE GRAY: 2.146143 55577374544-JOHN DOE PURPLE: 2.0586686 Searching for: 00027522389-JOHANNA DOE 00022785363-JOHANNA DOE: 1.4142135 Cheers.\n","wordCount":"204","inLanguage":"en","datePublished":"2015-12-08T19:04:50+02:00","dateModified":"2015-12-08T19:04:50+02:00","author":{"@type":"Person","name":"Serhat M. Dündar"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/"},"publisher":{"@type":"Organization","name":"msdundar","logo":{"@type":"ImageObject","url":"https://www.serhatdundar.com/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -58,13 +58,18 @@ file = File.">
 </div>
 <ul id=menu>
 <li>
-<a href=https://www.serhatdundar.com/about/ title=about>
-<span>about</span>
+<a href=https://www.serhatdundar.com/tags/ title=tags>
+<span>tags</span>
 </a>
 </li>
 <li>
-<a href=https://www.serhatdundar.com/tags/ title=tags>
-<span>tags</span>
+<a href=https://www.serhatdundar.com/archives/ title=archives>
+<span>archives</span>
+</a>
+</li>
+<li>
+<a href=https://www.serhatdundar.com/search/ title="search (Alt + /)" accesskey=/>
+<span>search</span>
 </a>
 </li>
 </ul>
@@ -77,7 +82,7 @@ file = File.">
 <h1 class=post-title>
 Calculating Similarity Between Two Data With Ruby and Elasticsearch
 </h1>
-<div class=post-meta><span title="2015-12-08 19:04:50 +0200 +0200">December 8, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Serhat M. Dündar&nbsp;|&nbsp;<a href=https://github.com/msdundar/msdundar.github.io/content/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2015-12-08 19:04:50 +0200 +0200">December 8, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Serhat M. Dündar&nbsp;|&nbsp;<a href=https://github.com/msdundar/msdundar.github.io/tree/main/content/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
 </header>
 <div class=post-content><p>I recently had to find similar data located in a dataset, in order to find potential duplicate records:</p>

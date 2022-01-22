@@ -140,11 +140,11 @@ the third party is a certificate authority, an entity that issues digital certif
 - Bob uses Alice's public key to encrypt his message.
 - Alice receives the e-mail and decrypts it with her private key.
 
-|                                | Is guaranteed? | Why?                                                                                    |
-|--------------------------------|----------------|-----------------------------------------------------------------------------------------|
-| Confidentiality                | Yes            | The message is encrypted. Only Alice, with her private key, can decrypt it              |
-| Integrity                      | Yes            | Alice can decrypt the message. That proves the message is encrypted with her public key |
-| Non-repudiation/Authentication | No             | Anyone can get Alice's public key, encrypt a message with it, and send it to her        |
+|                                | Guaranteed? | Why?                                                                                    |
+|--------------------------------|-------------|-----------------------------------------------------------------------------------------|
+| Confidentiality                | Yes         | The message is encrypted. Only Alice, with her private key, can decrypt it              |
+| Integrity                      | Yes         | Alice can decrypt the message. That proves the message is encrypted with her public key |
+| Non-repudiation/Authentication | No          | Anyone can get Alice's public key, encrypt a message with it, and send it to her        |
 
 Man-in-the-middle scenario:
 
@@ -168,11 +168,11 @@ Risks:
 - Bob uses Alice's public key to encrypt his message.
 - Alice receives the e-mail and decrypts it with her private key.
 
-|                                | Is guaranteed? | Why?                                                                                    |
-|--------------------------------|----------------|-----------------------------------------------------------------------------------------|
-| Confidentiality                | Yes            | The message is encrypted. Only Alice, with her private key, can decrypt it              |
-| Integrity                      | Yes            | Alice can decrypt the message. That proves the message is encrypted with her public key |
-| Non-repudiation/Authentication | No             | Anyone can get Alice's certificate, encrypt a message with it, and send it to her       |
+|                                | Guaranteed? | Why?                                                                                    |
+|--------------------------------|-------------|-----------------------------------------------------------------------------------------|
+| Confidentiality                | Yes         | The message is encrypted. Only Alice, with her private key, can decrypt it              |
+| Integrity                      | Yes         | Alice can decrypt the message. That proves the message is encrypted with her public key |
+| Non-repudiation/Authentication | No          | Anyone can get Alice's certificate, encrypt a message with it, and send it to her       |
 
 Man-in-the-middle scenario:
 
@@ -192,11 +192,11 @@ Risks:
 - Bob uses his private key to encrypt the message.
 - Alice receives the e-mail and decrypts it with Bob's public key.
 
-|                                | Is guaranteed? | Why?                                                                                                                |
-|--------------------------------|----------------|---------------------------------------------------------------------------------------------------------------------|
-| Confidentiality                | No             | Anyone can decrypt the encrypted message since Bob's public key is publicly available                               |
-| Integrity                      | Yes            | Alice can decrypt the message. That proves, the message is encrypted with Bob's private key and hasn't been changed |
-| Non-repudiation/Authentication | Yes            | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key          |
+|                                | Guaranteed? | Why?                                                                                                                |
+|--------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------|
+| Confidentiality                | No          | Anyone can decrypt the encrypted message since Bob's public key is publicly available                               |
+| Integrity                      | Yes         | Alice can decrypt the message. That proves, the message is encrypted with Bob's private key and hasn't been changed |
+| Non-repudiation/Authentication | Yes         | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key          |
 
 Man-in-the-middle scenario:
 
@@ -224,11 +224,11 @@ digital signatures for integrity and authentication purposes.
 - Alice hashes the plaintext message and generates her digest. Then she compares the digest she created, and she
   got from Bob. If they match, integrity and non-repudiation will be proven.
 
-|                                | Is guaranteed? | Why?                                                                                                                                   |
-|--------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Confidentiality                | No             | The message is in plain text, and digital signatures aren't about confidentiality                                                      |
-| Integrity                      | Yes            | Alice can decrypt the message and compare hashes. That proves, the message is encrypted with Bob's private key and hasn't been changed |
-| Non-repudiation/Authentication | Yes            | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key                             |
+|                                | Guaranteed? | Why?                                                                                                                                   |
+|--------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Confidentiality                | No          | The message is in plain text, and digital signatures aren't about confidentiality                                                      |
+| Integrity                      | Yes         | Alice can decrypt the message and compare hashes. That proves, the message is encrypted with Bob's private key and hasn't been changed |
+| Non-repudiation/Authentication | Yes         | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key                             |
 
 Man-in-the-middle scenario:
 
@@ -246,11 +246,11 @@ Man-in-the-middle scenario:
 - Alice uses Bob's certificate to obtain his public key and to verify his name.
 - Alice decrypts the e-mail with Bob's public key.
 
-|                                | Is guaranteed? | Why?                                                                                                                |
-|--------------------------------|----------------|---------------------------------------------------------------------------------------------------------------------|
-| Confidentiality                | No             | Anyone can decrypt the encrypted message since Bob's certificate is publicly available                              |
-| Integrity                      | Yes            | Alice can decrypt the message. That proves, the message is encrypted with Bob's private key and hasn't been changed |
-| Non-repudiation/Authentication | Yes            | Since the message can be decrypted with Bob's certificate, it must have been encrypted with his private key         |
+|                                | Guaranteed? | Why?                                                                                                                |
+|--------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------|
+| Confidentiality                | No          | Anyone can decrypt the encrypted message since Bob's certificate is publicly available                              |
+| Integrity                      | Yes         | Alice can decrypt the message. That proves, the message is encrypted with Bob's private key and hasn't been changed |
+| Non-repudiation/Authentication | Yes         | Since the message can be decrypted with Bob's certificate, it must have been encrypted with his private key         |
 
 Man-in-the-middle scenario:
 
@@ -276,11 +276,11 @@ Risks:
   private key.
 - Alice then decrypts it with Bob's public key.
 
-|                                | Is guaranteed? | Why?                                                                                                                                   |
-|--------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Confidentiality                | Yes            | The message is encrypted with Alice's public key. Only Alice, with her private key, can decrypt it                                     |
-| Integrity                      | Yes            | Alice can decrypt the message and compare hashes. That proves, the message is encrypted with Bob's private key and hasn't been changed |
-| Non-repudiation/Authentication | Yes            | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key                             |
+|                                | Guaranteed? | Why?                                                                                                                                   |
+|--------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Confidentiality                | Yes         | The message is encrypted with Alice's public key. Only Alice, with her private key, can decrypt it                                     |
+| Integrity                      | Yes         | Alice can decrypt the message and compare hashes. That proves, the message is encrypted with Bob's private key and hasn't been changed |
+| Non-repudiation/Authentication | Yes         | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key                             |
 
 The problem with this approach is, the asymmetric encryption is slow and it doesn't work well with big messages
 because of the _cipher text expansion_ (the ciphertext is larger than the original message). Since Bob uses asymmetric
@@ -315,11 +315,11 @@ Man-in-the-middle scenario:
 - Alice hashes the decrypted message and generates her digest. Then she compares the digest she created, and she
   got from Bob. If they match, integrity and non-repudiation will be proven.
 
-|                                | Is guaranteed? | Why?                                                                                                                                   |
-|--------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Confidentiality                | Yes            | The message is encrypted with Alice's public key. Only Alice, with her private key, can decrypt it                                     |
-| Integrity                      | Yes            | Alice can decrypt the message and compare hashes. That proves, the message is encrypted with Bob's private key and hasn't been changed |
-| Non-repudiation/Authentication | Yes            | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key                             |
+|                                | Guaranteed? | Why?                                                                                                                                   |
+|--------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Confidentiality                | Yes         | The message is encrypted with Alice's public key. Only Alice, with her private key, can decrypt it                                     |
+| Integrity                      | Yes         | Alice can decrypt the message and compare hashes. That proves, the message is encrypted with Bob's private key and hasn't been changed |
+| Non-repudiation/Authentication | Yes         | Since the message can be decrypted with Bob's public key, it must have been encrypted with his private key                             |
 
 Man-in-the-middle scenario:
 

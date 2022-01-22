@@ -15,11 +15,11 @@ A Gruntfile is comprised of the following parts:">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <link rel=preload href=/apple-touch-icon.png as=image>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=16x16 href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=32x32 href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=apple-touch-icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=mask-icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon href=https://www.serhatdundar.com/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://www.serhatdundar.com/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://www.serhatdundar.com/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://www.serhatdundar.com/apple-touch-icon.png>
+<link rel=mask-icon href=https://www.serhatdundar.com/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.91.2">
@@ -48,7 +48,7 @@ npm install -g grunt-cli Add it to the package.json:
 npm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.
 A Gruntfile is comprised of the following parts:">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://www.serhatdundar.com/posts/"},{"@type":"ListItem","position":2,"name":"Packing JS projects for AWS Lambda with Grunt","item":"https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Packing JS projects for AWS Lambda with Grunt","name":"Packing JS projects for AWS Lambda with Grunt","description":"Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it\u0026rsquo;s also quite useful for packing JS projects for AWS Lambda.\nInstall the CLI globally:\nnpm install -g grunt-cli Add it to the package.json:\nnpm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.\nA Gruntfile is comprised of the following parts:","keywords":["javascript","lambda"],"articleBody":"Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it’s also quite useful for packing JS projects for AWS Lambda.\nInstall the CLI globally:\nnpm install -g grunt-cli Add it to the package.json:\nnpm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.\nA Gruntfile is comprised of the following parts:\n The “wrapper” function Project and task configuration Loading Grunt plugins and tasks Custom tasks  A sample Gruntfile is as follows:\nmodule.exports = function (grunt) { // load all grunt plugins  require(\"load-grunt-tasks\")(grunt); // variables  var buildPath = \"./tmp/build/\"; var destFile = \"./dest/index.zip\" grunt.initConfig({ copy: { build: { src: [ \"./src/**\", \"./index.js\", \"./package-lock.json\", \"./package.json\", \"./client_config.json\", ], dest: buildPath, }, }, exec: { build: { cwd: buildPath, cmd: \"npm ci --production\", }, }, zip: { build: { cwd: buildPath, src: buildPath + \"**\", dest: destFile, compression: \"DEFLATE\", }, }, }); // default task  grunt.registerTask(\"default\", [\"build\"]); // build task  grunt.registerTask(\"build\", [\"copy\", \"exec\", \"zip\"]); }; package.json can then be configured for npm build:\n\"scripts\": { \"build\": \"grunt\" } Cheers.\n","wordCount":"189","inLanguage":"en","datePublished":"2020-05-02T20:40:46+02:00","dateModified":"2020-05-02T20:40:46+02:00","author":{"@type":"Person","name":"Serhat M. Dündar"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/"},"publisher":{"@type":"Organization","name":"msdundar","logo":{"@type":"ImageObject","url":"https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Packing JS projects for AWS Lambda with Grunt","name":"Packing JS projects for AWS Lambda with Grunt","description":"Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it\u0026rsquo;s also quite useful for packing JS projects for AWS Lambda.\nInstall the CLI globally:\nnpm install -g grunt-cli Add it to the package.json:\nnpm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.\nA Gruntfile is comprised of the following parts:","keywords":["javascript","lambda"],"articleBody":"Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it’s also quite useful for packing JS projects for AWS Lambda.\nInstall the CLI globally:\nnpm install -g grunt-cli Add it to the package.json:\nnpm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.\nA Gruntfile is comprised of the following parts:\n The “wrapper” function Project and task configuration Loading Grunt plugins and tasks Custom tasks  A sample Gruntfile is as follows:\nmodule.exports = function (grunt) { // load all grunt plugins  require(\"load-grunt-tasks\")(grunt); // variables  var buildPath = \"./tmp/build/\"; var destFile = \"./dest/index.zip\" grunt.initConfig({ copy: { build: { src: [ \"./src/**\", \"./index.js\", \"./package-lock.json\", \"./package.json\", \"./client_config.json\", ], dest: buildPath, }, }, exec: { build: { cwd: buildPath, cmd: \"npm ci --production\", }, }, zip: { build: { cwd: buildPath, src: buildPath + \"**\", dest: destFile, compression: \"DEFLATE\", }, }, }); // default task  grunt.registerTask(\"default\", [\"build\"]); // build task  grunt.registerTask(\"build\", [\"copy\", \"exec\", \"zip\"]); }; package.json can then be configured for npm build:\n\"scripts\": { \"build\": \"grunt\" } Cheers.\n","wordCount":"189","inLanguage":"en","datePublished":"2020-05-02T20:40:46+02:00","dateModified":"2020-05-02T20:40:46+02:00","author":{"@type":"Person","name":"Serhat M. Dündar"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/"},"publisher":{"@type":"Organization","name":"msdundar","logo":{"@type":"ImageObject","url":"https://www.serhatdundar.com/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -64,13 +64,18 @@ A Gruntfile is comprised of the following parts:">
 </div>
 <ul id=menu>
 <li>
-<a href=https://www.serhatdundar.com/about/ title=about>
-<span>about</span>
+<a href=https://www.serhatdundar.com/tags/ title=tags>
+<span>tags</span>
 </a>
 </li>
 <li>
-<a href=https://www.serhatdundar.com/tags/ title=tags>
-<span>tags</span>
+<a href=https://www.serhatdundar.com/archives/ title=archives>
+<span>archives</span>
+</a>
+</li>
+<li>
+<a href=https://www.serhatdundar.com/search/ title="search (Alt + /)" accesskey=/>
+<span>search</span>
 </a>
 </li>
 </ul>
@@ -83,7 +88,7 @@ A Gruntfile is comprised of the following parts:">
 <h1 class=post-title>
 Packing JS projects for AWS Lambda with Grunt
 </h1>
-<div class=post-meta><span title="2020-05-02 20:40:46 +0200 CEST">May 2, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Serhat M. Dündar&nbsp;|&nbsp;<a href=https://github.com/msdundar/msdundar.github.io/content/posts/packing-js-projects-for-aws-lambda-with-grunt.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2020-05-02 20:40:46 +0200 CEST">May 2, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Serhat M. Dündar&nbsp;|&nbsp;<a href=https://github.com/msdundar/msdundar.github.io/tree/main/content/posts/packing-js-projects-for-aws-lambda-with-grunt.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
 </header>
 <div class=post-content><p>Grunt is a Javascript task runner. It automates repetitive tasks like

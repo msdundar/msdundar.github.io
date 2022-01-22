@@ -17,6 +17,13 @@ minify:
 
 publishDir: docs
 
+# search config
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   # env settings
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -60,6 +67,30 @@ params:
   disableScrollToTop: false
   disableSpecial1stPost: false
 
+  # suggest changes on github
+  editPost:
+    URL: "https://github.com/msdundar/msdundar.github.io/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  # homepage settings
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  # favicons
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+
   # profileMode:
   #   enabled: false
   #   title: Welcome!
@@ -74,38 +105,12 @@ params:
   #     - name: Tags
   #       url: tags
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/msdundar/msdundar.github.io/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
+  # search library settings
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -114,16 +119,22 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+# top menu
 menu:
   main:
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
+      weight: 10
+    - identifier: archives
+      name: archives
+      url: /archives/
       weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true

@@ -101,7 +101,8 @@
     <loc>https://www.serhatdundar.com/tags/elasticsearch/</loc>
     <lastmod>2015-12-08T19:04:50+02:00</lastmod>
   </url><url>
-    <loc>https://www.serhatdundar.com/about/</loc>
-    <priority>0</priority>
+    <loc>https://www.serhatdundar.com/archives/</loc>
+  </url><url>
+    <loc>https://www.serhatdundar.com/search/</loc>
   </url>
 </urlset>

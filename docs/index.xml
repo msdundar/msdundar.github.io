@@ -158,15 +158,7 @@ Country (has_many :regions) -&amp;gt; Region (has_many :cities) -&amp;gt; City (
 file = File.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://www.serhatdundar.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.serhatdundar.com/about/</guid>
-      <description>About Me I&amp;rsquo;m Serhat, from Berlin. I&amp;rsquo;m blogging in this site about tech and life since 2010.
-My main interests are Ruby, Ruby on Rails, GoLang and AWS.</description>
-    </item>
+    
     
   </channel>
 </rss>

@@ -13,11 +13,11 @@ class NewsletterTest < ActiveSupport::TestCase test 'a sample test' do assert ne
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <link rel=preload href=/apple-touch-icon.png as=image>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=16x16 href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=32x32 href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=apple-touch-icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
-<link rel=mask-icon href=https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon href=https://www.serhatdundar.com/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://www.serhatdundar.com/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://www.serhatdundar.com/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://www.serhatdundar.com/apple-touch-icon.png>
+<link rel=mask-icon href=https://www.serhatdundar.com/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.91.2">
@@ -42,7 +42,7 @@ class NewsletterTest < ActiveSupport::TestCase test 'a sample test' do assert ne
 newsletter: name: foo message: bar first_name: foo last_name: bar There are two popular ways to use this fixture in your Rails tests. The first one is directly calling the name of fixture file, followed by a symbol stating the name of any individual fixture:
 class NewsletterTest < ActiveSupport::TestCase test 'a sample test' do assert newsletters(:newsletter).valid? end end And the other one is assigning fixtures to an instance variable in the setup block:">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://www.serhatdundar.com/posts/"},{"@type":"ListItem","position":2,"name":"Rails Instantiated Fixtures","item":"https://www.serhatdundar.com/posts/rails-instantiated-fixtures/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Rails Instantiated Fixtures","name":"Rails Instantiated Fixtures","description":"Here is a sample Ruby on Rails fixture named as newsletter:\nnewsletter: name: foo message: bar first_name: foo last_name: bar There are two popular ways to use this fixture in your Rails tests. The first one is directly calling the name of fixture file, followed by a symbol stating the name of any individual fixture:\nclass NewsletterTest \u0026lt; ActiveSupport::TestCase test \u0026#39;a sample test\u0026#39; do assert newsletters(:newsletter).valid? end end And the other one is assigning fixtures to an instance variable in the setup block:","keywords":["rails"],"articleBody":"Here is a sample Ruby on Rails fixture named as newsletter:\nnewsletter: name: foo message: bar first_name: foo last_name: bar There are two popular ways to use this fixture in your Rails tests. The first one is directly calling the name of fixture file, followed by a symbol stating the name of any individual fixture:\nclass NewsletterTest  ActiveSupport::TestCase test 'a sample test' do assert newsletters(:newsletter).valid? end end And the other one is assigning fixtures to an instance variable in the setup block:\nclass NewsletterTest  ActiveSupport::TestCase setup do @newsletter = newsletters(:tenant_newsletter) end test 'a sample test' do assert @newsletter.valid? end end When you would like to stick with instance variables, there is an easier way, instantiated fixtures:\nclass NewsletterTest  ActiveSupport::TestCase self.use_instantiated_fixtures = true test 'a sample test' do assert @newsletter.valid? end end instantiated_fixtures automatically creates instance variables for each fixture item, and they become accessible as instance variables with the same name. Imagine a more populated fixture like this:\ncity: name: Samsun country: name: Turkey region: name: Black Sea when you enable instantiated_fixtures you will automatically have three different instance variables named as @city, @country and @region. These instance variables will immediately be accessible from anywhere in your test file.\nThis behaviour might come in handy for some cases but please be aware of the risk of conflicting variables! Since instantiated_fixtures will give you an instance variable for each item, you must make sure that you don’t use these variable names anywhere else in your test files, in order to prevent possible conflicts and confusions.\nCheers.\n","wordCount":"258","inLanguage":"en","datePublished":"2017-05-03T18:52:34+02:00","dateModified":"2017-05-03T18:52:34+02:00","author":{"@type":"Person","name":"Serhat M. Dündar"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.serhatdundar.com/posts/rails-instantiated-fixtures/"},"publisher":{"@type":"Organization","name":"msdundar","logo":{"@type":"ImageObject","url":"https://www.serhatdundar.com/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Rails Instantiated Fixtures","name":"Rails Instantiated Fixtures","description":"Here is a sample Ruby on Rails fixture named as newsletter:\nnewsletter: name: foo message: bar first_name: foo last_name: bar There are two popular ways to use this fixture in your Rails tests. The first one is directly calling the name of fixture file, followed by a symbol stating the name of any individual fixture:\nclass NewsletterTest \u0026lt; ActiveSupport::TestCase test \u0026#39;a sample test\u0026#39; do assert newsletters(:newsletter).valid? end end And the other one is assigning fixtures to an instance variable in the setup block:","keywords":["rails"],"articleBody":"Here is a sample Ruby on Rails fixture named as newsletter:\nnewsletter: name: foo message: bar first_name: foo last_name: bar There are two popular ways to use this fixture in your Rails tests. The first one is directly calling the name of fixture file, followed by a symbol stating the name of any individual fixture:\nclass NewsletterTest  ActiveSupport::TestCase test 'a sample test' do assert newsletters(:newsletter).valid? end end And the other one is assigning fixtures to an instance variable in the setup block:\nclass NewsletterTest  ActiveSupport::TestCase setup do @newsletter = newsletters(:tenant_newsletter) end test 'a sample test' do assert @newsletter.valid? end end When you would like to stick with instance variables, there is an easier way, instantiated fixtures:\nclass NewsletterTest  ActiveSupport::TestCase self.use_instantiated_fixtures = true test 'a sample test' do assert @newsletter.valid? end end instantiated_fixtures automatically creates instance variables for each fixture item, and they become accessible as instance variables with the same name. Imagine a more populated fixture like this:\ncity: name: Samsun country: name: Turkey region: name: Black Sea when you enable instantiated_fixtures you will automatically have three different instance variables named as @city, @country and @region. These instance variables will immediately be accessible from anywhere in your test file.\nThis behaviour might come in handy for some cases but please be aware of the risk of conflicting variables! Since instantiated_fixtures will give you an instance variable for each item, you must make sure that you don’t use these variable names anywhere else in your test files, in order to prevent possible conflicts and confusions.\nCheers.\n","wordCount":"258","inLanguage":"en","datePublished":"2017-05-03T18:52:34+02:00","dateModified":"2017-05-03T18:52:34+02:00","author":{"@type":"Person","name":"Serhat M. Dündar"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.serhatdundar.com/posts/rails-instantiated-fixtures/"},"publisher":{"@type":"Organization","name":"msdundar","logo":{"@type":"ImageObject","url":"https://www.serhatdundar.com/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -58,13 +58,18 @@ class NewsletterTest < ActiveSupport::TestCase test 'a sample test' do assert ne
 </div>
 <ul id=menu>
 <li>
-<a href=https://www.serhatdundar.com/about/ title=about>
-<span>about</span>
+<a href=https://www.serhatdundar.com/tags/ title=tags>
+<span>tags</span>
 </a>
 </li>
 <li>
-<a href=https://www.serhatdundar.com/tags/ title=tags>
-<span>tags</span>
+<a href=https://www.serhatdundar.com/archives/ title=archives>
+<span>archives</span>
+</a>
+</li>
+<li>
+<a href=https://www.serhatdundar.com/search/ title="search (Alt + /)" accesskey=/>
+<span>search</span>
 </a>
 </li>
 </ul>
@@ -77,7 +82,7 @@ class NewsletterTest < ActiveSupport::TestCase test 'a sample test' do assert ne
 <h1 class=post-title>
 Rails Instantiated Fixtures
 </h1>
-<div class=post-meta><span title="2017-05-03 18:52:34 +0200 CEST">May 3, 2017</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Serhat M. Dündar&nbsp;|&nbsp;<a href=https://github.com/msdundar/msdundar.github.io/content/posts/rails-instantiated-fixtures.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2017-05-03 18:52:34 +0200 CEST">May 3, 2017</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Serhat M. Dündar&nbsp;|&nbsp;<a href=https://github.com/msdundar/msdundar.github.io/tree/main/content/posts/rails-instantiated-fixtures.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
 </header>
 <div class=post-content><p>Here is a sample Ruby on Rails fixture named as <code>newsletter</code>:</p>
