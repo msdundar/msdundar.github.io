@@ -35,22 +35,14 @@ params:
   keywords: [Ruby, Rails, Golang, PostgreSQL, AWS, Security]
   title: Blog of Serhat M. Dündar
   description: "A blog-like personal notebook. Here I post things that I would like to visit and read later."
+  images: ["<link or path of image for opengraph, twitter-cards>"] # TODO
 
   # analytics
   analytics:
-    google:
     bing:
       SiteVerificationTag: "FB250DD9B2E012AE2926B862C67FF49A"
     yandex:
       SiteVerificationTag: "3df8f3ed69f19bcb"
-
-  # TODOOOOOOO
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-
-
-
-
-
 
   # theme settings
   defaultTheme: auto # dark, light
@@ -115,7 +107,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/msdundar/msdundar.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -131,18 +123,15 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: about
+      name: about
+      url: /about/
       weight: 10
     - identifier: tags
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
