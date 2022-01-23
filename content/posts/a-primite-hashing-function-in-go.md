@@ -1,6 +1,6 @@
 ---
 title: "A Primite Hashing Function in Go"
-date: 2022-01-22T18:30:19+02:00
+date: 2022-01-23T18:30:19+02:00
 categories:
 - tech
 tags:
