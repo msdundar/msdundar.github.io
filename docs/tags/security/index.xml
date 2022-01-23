@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Jan 2022 14:00:33 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 18:30:19 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Primite Hashing Function in Go</title>
+      <link>https://www.serhatdundar.com/posts/a-primite-hashing-function-in-go/</link>
+      <pubDate>Sat, 22 Jan 2022 18:30:19 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/a-primite-hashing-function-in-go/</guid>
+      <description>Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable amount of time and patience. However, they all have things in common: an input, a cryptographic algorithm, and an output.
+Recently, I had a chance to study some popular cryptographic hash functions, such as MD5 and SHA-1, and tried to understand how they really work. Wikipedia pages I linked include a considerable amount of information already, and more can be found online, but what I want to do was understand similarities between them and write my own primitive hashing function in Go.</description>
+    </item>
+    
     <item>
       <title>SSL/TLS Handshake, Hybrid Encryption and Public Key Infrastructure (PKI)</title>
       <link>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</link>
