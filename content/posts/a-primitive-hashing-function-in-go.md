@@ -1,5 +1,5 @@
 ---
-title: "A Primite Hashing Function in Go"
+title: "A Primitive Hashing Function in Go"
 date: 2022-01-23T18:30:19+02:00
 categories:
 - tech

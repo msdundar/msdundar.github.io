@@ -12,11 +12,11 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Jan 2022 18:30:19 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Primite Hashing Function in Go</title>
-      <link>https://www.serhatdundar.com/posts/a-primite-hashing-function-in-go/</link>
+      <title>A Primitive Hashing Function in Go</title>
+      <link>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</link>
       <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
       
-      <guid>https://www.serhatdundar.com/posts/a-primite-hashing-function-in-go/</guid>
+      <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
       <description>Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable amount of time and patience. However, they all have things in common: an input, a cryptographic algorithm, and an output.
 Recently, I had a chance to study some popular cryptographic hash functions, such as MD5 and SHA-1, and tried to understand how they really work. Wikipedia pages I linked include a considerable amount of information already, and more can be found online, but what I want to do was understand similarities between them and write my own primitive hashing function in Go.</description>
     </item>
