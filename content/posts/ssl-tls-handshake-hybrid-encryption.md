@@ -60,7 +60,7 @@ Here is a sample scenario for hybrid communications:
     proof that the server is who they say they are.
 - Bob checks the validity of this digital signature.
 - Bob generates a symmetric secret key pair (two identical keys).
-- Bog sends a `ClientKeyExchange` message to the server and initiates the key exchange process.
+- Bob sends a `ClientKeyExchange` message to the server and initiates the key exchange process.
 - Bob uses google.com's public key to encrypt one of these symmetric keys. The only key that can decrypt this message
   and reveal the symmetric key is google.com's private key. Therefore, Bob is safe to send this key over the wire, and
   he sends it to google.com.
