@@ -6,6 +6,7 @@ categories:
 tags:
 - security
 - golang
+- hashing
 ---
 
 Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable
