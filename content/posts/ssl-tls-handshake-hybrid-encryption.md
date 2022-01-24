@@ -40,20 +40,36 @@ Here is a sample scenario for hybrid communications:
 ### SSL/TLS Handshake
 
 > The content under this title is identical with the steps explained under "Hybrid Encryption for Communications: Messaging"
-> Alice here replaced by google.com
+> Alice here replaced by google.com. Some additional handshake-specific steps were added to the list.
 
 - Bob wants to connect to google.com.
-- Bob gets google.com's digital certificate, which includes the organization name and their public key.
-  - google.com's certificate must be signed by a CA (certificate authority). In other words, it must be encrypted with
-    a CA's private key.
-- Bob decrypts google.com's certificate, by using CA's public key, and reveals their public key.
+- Bob's browser sends a `ClientHello` message to the server including:
+  - Supported highest TLS version
+  - Supported cryptographic algorithms
+- At this point, the server knows what the client can do. The server picks one of the supported TLS versions,
+  cryptographic algorithms, and then replies to the client with a `ServerHello` message including:
+  - The chosen TLS version
+  - The chosen cryptographic algorithm
+  - Session ID
+  - Server's digital certificate: includes the organization name and their public key. This certificate must have been
+    signed by a CA (certificate authority). In other words, it must have been encrypted with a CA's private key.
+- Bob decrypts google.com's certificate, by using CA's public key, to check certificate validity.
+- The server sends a `ServerKeyExchange` message to the client. This message includes:
+  - Parameters for the key exchange.
+  - A digital signature (hash) of a set of previous messages so far, signed with the private key of the server. It's
+    proof that the server is who they say they are.
+- Bob checks the validity of this digital signature.
 - Bob generates a symmetric secret key pair (two identical keys).
-- Bob uses google.com's public key to encrypt one of these symmetric keys.
-- The only key that can decrypt this message and reveal the symmetric key is google.com's private key.
-- Therefore, Bob is safe to send this key over the wire, and he sends it to google.com.
+- Bog sends a `ClientKeyExchange` message to the server and initiates the key exchange process.
+- Bob uses google.com's public key to encrypt one of these symmetric keys. The only key that can decrypt this message
+  and reveal the symmetric key is google.com's private key. Therefore, Bob is safe to send this key over the wire, and
+  he sends it to google.com.
+- Bob sends a `ClientFinished` message, including digital signature (hash) of all previous messages so far.
 - google.com then uses their private key to decrypt the message and to reveal the symmetric key of Bob.
-- From now on, they both can use this symmetric key to encrypt and decrypt messages between them.
-- Briefly, asymmetric encryption is used to facilitate a key exchange.
+- google.com sends a `ServerFinished` message, including the digital signature (hash) of all previous messages so far.
+  By doing so, both parties can be sure that no one intercepted the communication (man-in-the-middle).
+- From now on, they both can use this symmetric key to encrypt and decrypt messages between them. Briefly, asymmetric
+  encryption is used to facilitate a key exchange.
 
 ### SSL or TLS?
 
@@ -68,10 +84,11 @@ SSL and TLS have three main purposes:
 
 #### TLS Downgrade Attack
 
-TLS is prone to "Downgrade Attack". In this attack type, the client (web browser) fakes the highest supported TLS
-version with an old version. For example, the client requests TLS 1.0, even though it can support TLS 1.3. By doing so,
-the attacker tries to be served by a weaker TLS version and manipulate it. To prevent your systems from this attack,
-you should configure your server not to support lower TLS versions.
+Old versions of TLS are prone to "Downgrade Attack". In this attack type, the client (web browser) fakes the highest
+supported TLS version with an old version. For example, the client requests TLS 1.0, even though it can support TLS 1.3.
+By doing so, the attacker tries to be served by a weaker TLS version and manipulate it. To prevent your systems from
+this attack, you should configure your server not to support lower TLS versions. In the latest version of TLS, the
+`ClientFinished` and `ServerFinished` messages are added to eliminate these downgrade attacks.
 
 ### Who are these CAs (Certificate Authorities) anyway?
 
