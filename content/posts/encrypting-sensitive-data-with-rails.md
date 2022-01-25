@@ -5,6 +5,7 @@ categories:
 - tech
 tags:
 - rails
+- encryption
 ---
 
 The most recent versions (5.1 and 5.2) of Ruby on Rails has shipped with a new
