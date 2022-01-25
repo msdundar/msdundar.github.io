@@ -71,6 +71,28 @@ Here is a sample scenario for hybrid communications:
 - From now on, they both can use this symmetric key to encrypt and decrypt messages between them. Briefly, asymmetric
   encryption is used to facilitate a key exchange.
 
+  ```
+          Client                                               Server
+
+          ClientHello
+          (empty SessionTicket extension)-------->
+                                                          ServerHello
+                                      (empty SessionTicket extension)
+                                                          Certificate*
+                                                    ServerKeyExchange*
+                                                  CertificateRequest*
+                                        <--------      ServerHelloDone
+          Certificate*
+          ClientKeyExchange
+          CertificateVerify*
+          [ChangeCipherSpec]
+          Finished                     -------->
+                                                      NewSessionTicket
+                                                    [ChangeCipherSpec]
+                                        <--------             Finished
+          Application Data             <------->     Application Data
+  ```
+
 ### SSL or TLS?
 
 Often SSL and TLS are used interchangeably. However, they aren't identical terms. SSL (Secure Sockets Layer) is a

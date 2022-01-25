@@ -3,27 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.serhatdundar.com/</loc>
-    <lastmod>2022-01-24T01:30:33+02:00</lastmod>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/categories/</loc>
-    <lastmod>2022-01-24T01:30:33+02:00</lastmod>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</loc>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/encryption/</loc>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/posts/</loc>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/security/</loc>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/</loc>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/categories/tech/</loc>
+    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/tags/hashing/</loc>
     <lastmod>2022-01-24T01:30:33+02:00</lastmod>
   </url><url>
-    <loc>https://www.serhatdundar.com/posts/</loc>
-    <lastmod>2022-01-24T01:30:33+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/tags/security/</loc>
-    <lastmod>2022-01-24T01:30:33+02:00</lastmod>
-  </url><url>
     <loc>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</loc>
-    <lastmod>2022-01-24T01:30:33+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/tags/</loc>
-    <lastmod>2022-01-24T01:30:33+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/categories/tech/</loc>
     <lastmod>2022-01-24T01:30:33+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</loc>
@@ -31,9 +37,6 @@
   </url><url>
     <loc>https://www.serhatdundar.com/tags/golang/</loc>
     <lastmod>2022-01-23T18:30:19+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/tags/encryption/</loc>
-    <lastmod>2022-01-22T14:00:33+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</loc>
     <lastmod>2022-01-22T14:00:33+02:00</lastmod>

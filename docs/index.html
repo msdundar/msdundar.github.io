@@ -88,6 +88,19 @@
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Deconstructing and Understanding an SSL Certificate
+</h2>
+</header>
+<section class=entry-content>
+<p>Checking SSL certificates on a browser is easy. Just click the green lock icon and you’re good to go. But what if doing the same in a more hacker way? This is where openssl comes into play.
+Let’s start by checking the SSL certificate of this website:
+openssl s_client -connect www.serhatdundar.com:443 depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA depth=1 C = US, O = DigiCert Inc, OU = www....</p>
+</section>
+<footer class=entry-footer><span title="2022-01-25 07:10:50 +0200 +0200">January 25, 2022</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Serhat M. Dündar</footer>
+<a class=entry-link aria-label="post link to Deconstructing and Understanding an SSL Certificate" href=https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Storing Passwords in a Database: Hashing, Salts, and Peppers
 </h2>
 </header>
