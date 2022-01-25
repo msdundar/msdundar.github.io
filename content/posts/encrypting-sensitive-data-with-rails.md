@@ -5,6 +5,7 @@ categories:
 - tech
 tags:
 - rails
+- security
 - encryption
 ---
 
