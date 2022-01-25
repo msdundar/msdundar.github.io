@@ -120,7 +120,7 @@ and our browsers trust some root CAs, and their _**self-signed**_ certificates b
 On an OSx system you can find the list of trusted and blocked certificate issuers by choosing _"Go > Go to Folder"_ in
 the Finder, and then pasting `/System/Library/Security/Certificates.bundle/Contents/Resources/TrustStore.html` there.
 
-[![trust-store](assets/trust-store.png)](https://www.serhatdundar.com/assets/trust-store.png)
+[![trust-store](assets/trust-store.png)](assets/trust-store.png)
 
 ### Certificate Chain
 
