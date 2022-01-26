@@ -11,6 +11,7 @@ cover:
     alt: "<alt text>"
     caption: "<text>"
     relative: false
+images: "https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/assets/jw-chaplin-dover-london-stage-1200-optimized.jpg"
 ---
 
 ### Symmetric Encryption (Private Key Cryptography)
