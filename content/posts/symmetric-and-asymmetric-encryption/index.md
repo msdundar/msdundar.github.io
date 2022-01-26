@@ -1,6 +1,6 @@
 ---
 title: "Symmetric and Asymmetric Encryption"
-description: "In this post, I compare and contrast symmetric and asymmetric encryption by explaining seven different use case scenarios"
+description: "A detailed scenario-based comparison of symmetric and asymmetric encryption methods."
 date: 2022-01-21T14:00:33+02:00
 categories:
 - tech
@@ -8,10 +8,10 @@ tags:
 - security
 - encryption
 cover:
-    image: "posts/symmetric-and-asymmetric-encryption/assets/jw-chaplin-dover-london-stage-1200-optimized.jpg"
-    alt: "J.&W. Chaplin’s Dover-London Stage on the Road"
+    image: "posts/symmetric-and-asymmetric-encryption/assets/jw-chaplin-dover-london-stage-1200px.jpg"
+    alt: "J.&W. Chaplin's Dover-London Stage on the Road - John Cordrey"
     relative: false
-images: ["assets/jw-chaplin-dover-london-stage-1200-optimized.jpg"]
+images: ["assets/jw-chaplin-dover-london-stage-1200px.jpg"]
 ---
 
 ### Symmetric Encryption (Private Key Cryptography)

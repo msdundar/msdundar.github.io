@@ -1,5 +1,6 @@
 ---
 title: "A Primitive Hashing Function in Go"
+description: "A detailed scenario-based comparison of symmetric and asymmetric encryption methods."
 date: 2022-01-23T18:30:19+02:00
 categories:
 - tech
@@ -7,6 +8,11 @@ tags:
 - security
 - golang
 - hashing
+cover:
+    image: "posts/a-primitive-hashing-function-in-go/assets/landscape-with-bridge-1652.jpg"
+    alt: "Landscape with bridge (1652) - Pieter de Molijn"
+    relative: false
+images: ["assets/landscape-with-bridge-1652.jpg"]
 ---
 
 Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable
@@ -156,6 +162,6 @@ And voila! Here is our checksum in binary:
 01001111010111110010000001101001000001110110010101011010000111110001101101011101000010110000100001010110000000010000011100011000
 ```
 
-Needless to say, you should never use this hashing function on production. Existing hashing functions are 100x more
-complicated than this, and probably 1000x more secure. Therefore, you should only use a battle-tested algorithm such as
-SHA-3, bcrypt, and so on.
+Needless to say, you should never use this hashing function on production and you should never try to write your own
+encryption algorithm either. Existing hashing functions are 100x more complicated than this, and probably 1000x more
+secure. Therefore, you should only use battle-tested hashing algorithms such as SHA-3, bcrypt, and so on.
