@@ -8,7 +8,7 @@ tags:
 - security
 - encryption
 cover:
-    image: "assets/jw-chaplin-dover-london-stage-1200-optimized.jpg"
+    image: "posts/symmetric-and-asymmetric-encryption/assets/jw-chaplin-dover-london-stage-1200-optimized.jpg"
     alt: "J.&W. Chaplin’s Dover-London Stage on the Road"
     relative: false
 images: ["assets/jw-chaplin-dover-london-stage-1200-optimized.jpg"]
