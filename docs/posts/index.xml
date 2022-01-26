@@ -57,9 +57,7 @@ Recently, I had a chance to study some popular cryptographic hash functions, suc
       <pubDate>Fri, 21 Jan 2022 14:00:33 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</guid>
-      <description>Symmetric Encryption (Private Key Cryptography) In symmetric encryption only a single key, in other words, a private key is used to encrypt and decrypt a message. Symmetric encryption is also known as &amp;ldquo;Private Key Cryptography&amp;rdquo; as the whole encryption is only based on a private key.
-Some popular symetric encryption algorithms are:
-   Algorithm Cipher Key Size Block/State Size Popularity Notes     AES Block 128, 192, or 256 bits 128 bits 1 The best one.</description>
+      <description>In this post, I compare and contrast symmetric and asymmetric encryption by explaining seven different use case scenarios</description>
     </item>
     
     <item>
