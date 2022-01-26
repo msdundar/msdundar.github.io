@@ -1,6 +1,6 @@
 ---
 title: "A Primitive Hashing Function in Go"
-description: "A detailed scenario-based comparison of symmetric and asymmetric encryption methods."
+description: "A primitive hashing function written in Go to demonstrate concepts such as a XOR machine."
 date: 2022-01-23T18:30:19+02:00
 categories:
 - tech
