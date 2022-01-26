@@ -1,11 +1,17 @@
 ---
 title: "Calculating Similarity Between Two Data With Ruby and Elasticsearch"
+description: "Using Elasticsearch features for detecting similarity between a set of data with Ruby."
 date: 2015-12-08T19:04:50+02:00
 categories:
 - tech
 tags:
 - ruby
 - elasticsearch
+cover:
+    image: "posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/assets/halage-en-hollande-1867-johan-barthold-jongkind.jpg"
+    alt: "Halage En Hollande (1867) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/halage-en-hollande-1867-johan-barthold-jongkind.jpg"]
 ---
 
 I recently had to find similar data located in a dataset, in order to find potential duplicate records:

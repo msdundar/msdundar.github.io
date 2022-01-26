@@ -17,8 +17,7 @@
       <pubDate>Fri, 09 Nov 2018 19:24:20 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</guid>
-      <description>During nokul we&amp;rsquo;ve heavily implemented PostgreSQL features into our Rails application. Unfortunately, ActiveRecord doesn&amp;rsquo;t come with constraint support for PostgreSQL, but rein does a fantastic job covering what&amp;rsquo;s missing in ActiveRecord. We believe that, one shouldn&amp;rsquo;t rely on a web application, that is very prone for human-error, when it comes to data integrity. Therefore our PostgreSQL tables included various constraints and limits.
-Below you will find a set of rules that we&amp;rsquo;ve investigated, implemented and battle tested with various types.</description>
+      <description>Using PostgreSQL types with Ruby on Rails.</description>
     </item>
     
     <item>
@@ -27,8 +26,7 @@ Below you will find a set of rules that we&amp;rsquo;ve investigated, implemente
       <pubDate>Sat, 03 Nov 2018 15:24:20 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</guid>
-      <description>During nokul we&amp;rsquo;ve heavily implemented PostgreSQL features into our Rails application. Unfortunately, ActiveRecord doesn&amp;rsquo;t come with constraint support for PostgreSQL, but rein does a fantastic job covering what&amp;rsquo;s missing in ActiveRecord. We believe that, one shouldn&amp;rsquo;t rely on a web application, that is very prone for human-error, when it comes to data integrity. Therefore our PostgreSQL tables included various constraints and limits.
-Below you will find a set of rules that we&amp;rsquo;ve investigated, implemented and battle tested with various types.</description>
+      <description>Using PostgreSQL constraints with Ruby on Rails.</description>
     </item>
     
     <item>
@@ -37,8 +35,7 @@ Below you will find a set of rules that we&amp;rsquo;ve investigated, implemente
       <pubDate>Fri, 02 Nov 2018 11:16:48 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</guid>
-      <description>Configuration File  RAM amounts defined below doesn&amp;rsquo;t represent the total amount of memory available for your machine, instead, it represents what PostgreSQL can use maximum. Decribed configuration requires PostgreSQL &amp;gt;= 10. Remove max_parallel_workers for older versions.  The configuration file is usually located at /etc/postgresql/$VERSION/main/postgresql.conf in Debian-derivatives. For locating the file in other operating systems, you can use psql as follows:
-psql -U postgres show config_file; Tracking Query Statistics Enable the pg_stat extension, if you are interested in tracking query statistics:</description>
+      <description>Using pgtune for a fine-tuned PostgreSQL database.</description>
     </item>
     
   </channel>

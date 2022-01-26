@@ -17,8 +17,7 @@
       <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</guid>
-      <description>&amp;ldquo;How do you store passwords in a database&amp;rdquo;? A very common question for back-end-oriented interviews. After conducting hundreds of technical interviews on different levels, I can confidently say around 50% of the candidates can&amp;rsquo;t answer this question. The most common answer I often got is &amp;ldquo;there is a package/gem/library we use, and it manages the password part&amp;rdquo;.
-Well, yes, frameworks, libraries, and packages cover most of the complexity nowadays, but I don&amp;rsquo;t accept this as an excuse for not being curious about essentials.</description>
+      <description>Storing passwords securely in a database with hashing, salts, and peppers.</description>
     </item>
     
     <item>
@@ -27,7 +26,7 @@ Well, yes, frameworks, libraries, and packages cover most of the complexity nowa
       <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
-      <description>A primitive hashing function written in Go to demonstrate concepts such as a XOR machine.</description>
+      <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
     </item>
     
   </channel>

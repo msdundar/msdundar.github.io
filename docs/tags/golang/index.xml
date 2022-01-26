@@ -17,7 +17,7 @@
       <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
-      <description>A primitive hashing function written in Go to demonstrate concepts such as a XOR machine.</description>
+      <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
     </item>
     
   </channel>

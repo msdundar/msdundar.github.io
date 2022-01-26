@@ -1,10 +1,16 @@
 ---
 title: "Tuning PostgreSQL Configuration"
+description: "Using pgtune for a fine-tuned PostgreSQL database."
 date: 2018-11-02T11:16:48+02:00
 categories:
 - tech
 tags:
 - postgresql
+cover:
+    image: "posts/tuning-postgresql-configuration/assets/the-church-of-overschie-1866-johan-barthold-jongkind.jpg"
+    alt: "The Church of Overschie (1866) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/the-church-of-overschie-1866-johan-barthold-jongkind.jpg"]
 ---
 
 ## Configuration File

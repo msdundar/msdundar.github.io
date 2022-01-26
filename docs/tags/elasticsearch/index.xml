@@ -17,9 +17,7 @@
       <pubDate>Tue, 08 Dec 2015 19:04:50 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</guid>
-      <description>I recently had to find similar data located in a dataset, in order to find potential duplicate records:
-&amp;quot;John Doe 123456789&amp;quot; &amp;quot;John Foe 123123123&amp;quot; After considering a couple of options, I&amp;rsquo;ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:
-file = File.</description>
+      <description>Using Elasticsearch features for detecting similarity between a set of data with Ruby.</description>
     </item>
     
   </channel>

@@ -1,11 +1,17 @@
 ---
 title: "Deconstructing and Understanding an SSL Certificate"
+description: "Deconstructing an SSL certificate and understanding components of it."
 date: 2022-01-25T07:10:50+02:00
 categories:
 - tech
 tags:
 - security
 - encryption
+cover:
+    image: "posts/deconstructing-and-understanding-an-ssl-certificate/assets/la-cote-saint-andre-1880-johan-barthold-jongkind.jpg"
+    alt: "La Cote Saint Andre (1880) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/la-cote-saint-andre-1880-johan-barthold-jongkind.jpg"]
 ---
 
 Checking SSL certificates on a browser is easy. Just click the green lock icon and you're good to go. But what if

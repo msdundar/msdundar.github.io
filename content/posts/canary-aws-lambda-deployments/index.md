@@ -1,11 +1,17 @@
 ---
-title: "Canary Lambda Deployments"
+title: "Canary AWS Lambda Deployments"
+description: "Gradual/Canary deployments with AWS Lambda explained."
 date: 2021-06-14T22:50:45+02:00
 categories:
 - tech
 tags:
 - aws
 - lambda
+cover:
+    image: "posts/canary-aws-lambda-deployments/assets/la-campagne-nivernaise-1873-johan-barthold-jongkind.jpg"
+    alt: "La Campagne Nivernaise (1873) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/la-campagne-nivernaise-1873-johan-barthold-jongkind.jpg"]
 ---
 
 Lambdas aren't easy. This isn't just a provocative start, but instead my overall
@@ -229,9 +235,10 @@ violates my acceptance criteria.
 
 ### Approach 3: Upload .zip SHA as plaintext to S3
 
-I've seen this approach in [John Roach's blog](https://johnroach.io/2020/09/04/deploying-lambda-functions-with-terraform-just-dont/). It's similar to the first
-two approaches but this one takes actual source code changes into consideration
-by getting the SHA of the whole deployment package for change tracking purposes.
+I've seen this approach in [John Roach's blog](https://johnroach.io/2020/09/04/deploying-lambda-functions-with-terraform-just-dont/).
+It's similar to the first two approaches but this one takes actual source code
+changes into consideration by getting the SHA of the whole deployment package for
+change tracking purposes.
 
 In this approach, you need to upload a plaintext file including the SHA of the
 deployment package to the S3 bucket together with your .zip file. In the end,

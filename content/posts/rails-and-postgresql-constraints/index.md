@@ -1,11 +1,17 @@
 ---
 title: "Rails and PostgreSQL: Constraints"
+description: "Using PostgreSQL constraints with Ruby on Rails."
 date: 2018-11-03T15:24:20+02:00
 categories:
 - tech
 tags:
 - rails
 - postgresql
+cover:
+    image: "posts/rails-and-postgresql-constraints/assets/le-treport-le-matin-normandie-1852-johan-barthold-jongkind.jpg"
+    alt: "Le Treport, Le Matin, Normandie (1852) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/le-treport-le-matin-normandie-1852-johan-barthold-jongkind.jpg"]
 ---
 
 During [nokul](https://github.com/omu/nokul) we've heavily implemented PostgreSQL features into our

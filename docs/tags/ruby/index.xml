@@ -17,8 +17,7 @@
       <pubDate>Mon, 03 Apr 2017 01:46:33 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/running-rake-tasks-in-a-loop/</guid>
-      <description>Rake tasks in a loop, will only executed once if they are not &amp;ldquo;re-enabled&amp;rdquo;. Take a look at this example:
-namespace :yoksis do desc &amp;#39;fetches all references&amp;#39; task :references do mapping = { get_instruction_language: &amp;#39;UnitInstructionLanguage&amp;#39;, get_instruction_type: &amp;#39;UnitInstructionType&amp;#39; } mapping.each do |action, klass| Rake::Task[&amp;#39;yoksis:reference&amp;#39;].invoke(action, klass) end end desc &amp;#39;fetch an individual reference&amp;#39; task :reference, %i[soap_method klass] =&amp;gt; [:environment] do |_, args| puts args[:soap_method] puts args[:klass] end end When you run the yoksis:references task, it will only print out {get_instruction_language: &#39;UnitInstructionLanguage&#39;} and will skip the second item of the mapping hash.</description>
+      <description>Re-enabling rake tasks to make them run in a loop.</description>
     </item>
     
     <item>
@@ -27,9 +26,7 @@ namespace :yoksis do desc &amp;#39;fetches all references&amp;#39; task :referen
       <pubDate>Tue, 08 Dec 2015 19:04:50 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</guid>
-      <description>I recently had to find similar data located in a dataset, in order to find potential duplicate records:
-&amp;quot;John Doe 123456789&amp;quot; &amp;quot;John Foe 123123123&amp;quot; After considering a couple of options, I&amp;rsquo;ve decided to continue with Elasticsearch, as it was already integrated in the project I was working on. The Ruby client of Elasticsearch provided a useful function on search results, records.each_with_hit, that I could abuse for this situation:
-file = File.</description>
+      <description>Using Elasticsearch features for detecting similarity between a set of data with Ruby.</description>
     </item>
     
   </channel>

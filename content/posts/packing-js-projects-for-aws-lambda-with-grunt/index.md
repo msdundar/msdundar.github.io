@@ -1,11 +1,17 @@
 ---
 title: "Packing JS projects for AWS Lambda with Grunt"
+description: "A sample Grunt configuration to pack JS projects for AWS Lambda."
 date: 2020-05-02T20:40:46+02:00
 categories:
 - tech
 tags:
 - javascript
 - lambda
+cover:
+    image: "posts/packing-js-projects-for-aws-lambda-with-grunt/assets/le-spui-a-la-haye-1868-johan-barthold-jongkind.jpg"
+    alt: "Le Spui A La Haye (1868) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/le-spui-a-la-haye-1868-johan-barthold-jongkind.jpg"]
 ---
 
 Grunt is a Javascript task runner. It automates repetitive tasks like

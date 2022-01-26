@@ -1,16 +1,16 @@
 ---
 title: "Boolean Type Words in YAML"
-description: "Boolean Type Words in YAML"
+description: "A brief summary of boolean type words in YAML."
 date: 2016-06-07T09:10:16+02:00
 categories:
 - tech
 tags:
 - yaml
 cover:
-    image: "posts/book-review-the-design-of-web-apis/assets/dune-landscape-with-a-country-road-1629-pieter-van-santvoort.jpg"
-    alt: "Dune Landscape with a Country Road (1629) - Pieter van Santvoort"
+    image: "posts/boolean-type-words-in-yaml/assets/environs-de-grenoble-1873-johan-barthold-jongkind.jpg"
+    alt: "Environs de Grenoble (1873) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/dune-landscape-with-a-country-road-1629-pieter-van-santvoort.jpg"]
+images: ["assets/environs-de-grenoble-1873-johan-barthold-jongkind.jpg"]
 ---
 
 YAML is a widely used data serialization language. In almost any software

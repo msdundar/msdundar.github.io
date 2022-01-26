@@ -1,6 +1,6 @@
 ---
 title: "A Primitive Hashing Function in Go"
-description: "A primitive hashing function written in Go to demonstrate concepts such as a XOR machine."
+description: "A primitive hashing function written in Go to demonstrate concepts such as an XOR machine."
 date: 2022-01-23T18:30:19+02:00
 categories:
 - tech
@@ -9,10 +9,10 @@ tags:
 - golang
 - hashing
 cover:
-    image: "posts/a-primitive-hashing-function-in-go/assets/landscape-with-bridge-1652.jpg"
-    alt: "Landscape with bridge (1652) - Pieter de Molijn"
+    image: "posts/a-primitive-hashing-function-in-go/assets/bords-de-riviere-1868-johan-barthold-jongkind.jpg"
+    alt: "Bords de riviere (1868) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/landscape-with-bridge-1652.jpg"]
+images: ["assets/bords-de-riviere-1868-johan-barthold-jongkind.jpg"]
 ---
 
 Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable

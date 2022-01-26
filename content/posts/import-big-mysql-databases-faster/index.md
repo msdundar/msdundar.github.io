@@ -1,10 +1,16 @@
 ---
 title: "Import Big MySQL Databases Faster"
+description: "Configuring InnoDB for faster MySQL imports."
 date: 2017-04-05T11:44:19+02:00
 categories:
 - tech
 tags:
 - mysql
+cover:
+    image: "posts/import-big-mysql-databases-faster/assets/le-chateau-de-virieu-sur-bourbre-isere-1877-johan-barthold-jongkind.jpg"
+    alt: "Le Chateau De Virieu-Sur-Bourbre, Isere (1877) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/le-chateau-de-virieu-sur-bourbre-isere-1877-johan-barthold-jongkind.jpg"]
 ---
 
 I recently had to import some quite large SQL dumps to my local machine for data

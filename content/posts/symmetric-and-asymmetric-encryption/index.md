@@ -8,10 +8,10 @@ tags:
 - security
 - encryption
 cover:
-    image: "posts/symmetric-and-asymmetric-encryption/assets/jw-chaplin-dover-london-stage-1200px.jpg"
-    alt: "J.&W. Chaplin's Dover-London Stage on the Road - John Cordrey"
+    image: "posts/symmetric-and-asymmetric-encryption/assets/rue-a-saint-parize-le-chatel-pres-de-nevers-1862-johan-barthold-jongkind.jpg"
+    alt: "Rue A Saint-Parize-Le-Chatel, Pres De Nevers (1862) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/jw-chaplin-dover-london-stage-1200px.jpg"]
+images: ["assets/rue-a-saint-parize-le-chatel-pres-de-nevers-1862-johan-barthold-jongkind.jpg"]
 ---
 
 ### Symmetric Encryption (Private Key Cryptography)

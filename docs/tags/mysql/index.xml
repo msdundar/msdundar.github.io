@@ -17,9 +17,7 @@
       <pubDate>Wed, 05 Apr 2017 11:44:19 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</guid>
-      <description>I recently had to import some quite large SQL dumps to my local machine for data analysis purposes. There were 10 different .sql dumps in total, and each of them were sized more than 100GB.
-Naive Attempt First of all, I tried to import each by using the &amp;lt; operator:
-mysql some_database &amp;lt; some_dump.sql Unsurprisingly, each task took very long to finish, approximately 6-7 hours per dump file, in a brand new laptop with i7 CPU, 16GB RAM and 1TB SSD.</description>
+      <description>Configuring InnoDB for faster MySQL imports.</description>
     </item>
     
   </channel>

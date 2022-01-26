@@ -1,11 +1,17 @@
 ---
 title: "SSL/TLS Handshake, Hybrid Encryption and Public Key Infrastructure (PKI)"
+description: "Hybrid encryption, SSL/TLS handshake and Public Key Infrastructure (PKI) explained."
 date: 2022-01-22T14:00:33+02:00
 categories:
 - tech
 tags:
 - security
 - encryption
+cover:
+    image: "posts/ssl-tls-handshake-hybrid-encryption/assets/paysage-a-la-cote-saint-andre-1886-johan-barthold-jongkind.jpg"
+    alt: "Paysage a la Côte Saint-Andre (1886) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/paysage-a-la-cote-saint-andre-1886-johan-barthold-jongkind.jpg"]
 ---
 
 ### Hybrid Encryption: Symmetric and Asymmetric Encryption Combined
@@ -17,8 +23,6 @@ exchange private keys. When the private key exchange is completed, they keep com
 encryption - which is faster than asymmetric encryption.  This is also how SSL/TLS works.
 
 Using symmetric and asymmetric encryption together is also known as _Hybrid Encryption_.
-
-### Hybrid Encryption for Communications: Messaging
 
 Here is a sample scenario for hybrid communications:
 
@@ -35,7 +39,7 @@ Here is a sample scenario for hybrid communications:
 - From now on, they both can use this symmetric key to encrypt and decrypt messages between them.
 - Briefly, asymmetric encryption is used to facilitate a key exchange.
 
-> This is exactly how SSL/TLS works!
+> This is exactly how SSL/TLS also works!
 
 ### SSL/TLS Handshake
 

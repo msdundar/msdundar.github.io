@@ -1,11 +1,17 @@
 ---
 title: "Rails and PostgreSQL: Types"
+description: "Using PostgreSQL types with Ruby on Rails."
 date: 2018-11-09T19:24:20+02:00
 categories:
 - tech
 tags:
 - rails
 - postgresql
+cover:
+    image: "posts/rails-and-postgresql-types/assets/notre-dame-of-paris-seen-from-the-quai-de-la-tournelle-1863.jpg"
+    alt: "Notre Dame of Paris seen from the Quai de la Tournelle (1863) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/notre-dame-of-paris-seen-from-the-quai-de-la-tournelle-1863.jpg"]
 ---
 
 During [nokul](https://github.com/omu/nokul) we've heavily implemented PostgreSQL features into our

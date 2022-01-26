@@ -1,11 +1,17 @@
 ---
 title: "Running Rake Tasks in a Loop"
+description: "Re-enabling rake tasks to make them run in a loop."
 date: 2017-04-03T01:46:33+02:00
 categories:
 - tech
 tags:
 - ruby
 - rails
+cover:
+    image: "posts/running-rake-tasks-in-a-loop/assets/ornacieux-1879-johan-barthold-jongkind.jpg"
+    alt: "Ornacieux (1879) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/ornacieux-1879-johan-barthold-jongkind.jpg"]
 ---
 
 Rake tasks in a loop, will only executed once if they are not "re-enabled".

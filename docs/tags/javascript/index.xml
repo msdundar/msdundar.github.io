@@ -17,11 +17,7 @@
       <pubDate>Sat, 02 May 2020 20:40:46 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</guid>
-      <description>Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it&amp;rsquo;s also quite useful for packing JS projects for AWS Lambda.
-Install the CLI globally:
-npm install -g grunt-cli Add it to the package.json:
-npm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.
-A Gruntfile is comprised of the following parts:</description>
+      <description>A sample Grunt configuration to pack JS projects for AWS Lambda.</description>
     </item>
     
   </channel>

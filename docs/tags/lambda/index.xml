@@ -12,14 +12,12 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Jun 2021 22:50:45 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Canary Lambda Deployments</title>
-      <link>https://www.serhatdundar.com/posts/canary-lambda-deployments/</link>
+      <title>Canary AWS Lambda Deployments</title>
+      <link>https://www.serhatdundar.com/posts/canary-aws-lambda-deployments/</link>
       <pubDate>Mon, 14 Jun 2021 22:50:45 +0200</pubDate>
       
-      <guid>https://www.serhatdundar.com/posts/canary-lambda-deployments/</guid>
-      <description>Lambdas aren&amp;rsquo;t easy. This isn&amp;rsquo;t just a provocative start, but instead my overall experience planning, creating, and deploying them.
-Let&amp;rsquo;s be honest, making something up and running requires plenty of AWS knowledge. One might get lost easily even inside IAM alone.
-IAM groups, IAM users, IAM roles, IAM group policy attachments, IAM policy documents, IAM role policies - and how they connect is confusing enough considering what Lambda promises, simplicity. And this is just IAM.</description>
+      <guid>https://www.serhatdundar.com/posts/canary-aws-lambda-deployments/</guid>
+      <description>Gradual/Canary deployments with AWS Lambda explained.</description>
     </item>
     
     <item>
@@ -28,11 +26,7 @@ IAM groups, IAM users, IAM roles, IAM group policy attachments, IAM policy docum
       <pubDate>Sat, 02 May 2020 20:40:46 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</guid>
-      <description>Grunt is a Javascript task runner. It automates repetitive tasks like minification, compilation, unit testing, linting, etc. So it&amp;rsquo;s also quite useful for packing JS projects for AWS Lambda.
-Install the CLI globally:
-npm install -g grunt-cli Add it to the package.json:
-npm install grunt --save-dev The Gruntfile.js or Gruntfile.coffee file is a valid JavaScript or CoffeeScript file that belongs in the root directory of your project.
-A Gruntfile is comprised of the following parts:</description>
+      <description>A sample Grunt configuration to pack JS projects for AWS Lambda.</description>
     </item>
     
   </channel>

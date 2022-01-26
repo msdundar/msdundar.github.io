@@ -1,6 +1,6 @@
 ---
 title: "Book Review: The Design of Web APIs"
-description: "Book Review: The Design of Web APIs."
+description: "A book review about The Design of Web APIs."
 date: 2021-05-02T20:10:16+02:00
 categories:
 - tech
@@ -9,10 +9,10 @@ tags:
 - rest
 - http
 cover:
-    image: "posts/book-review-the-design-of-web-apis/assets/rising-sun-from-yorozubashi-bridge-1880.jpg"
-    alt: "Rising Sun from Yorozubashi Bridge (1880) - Kobayashi Kiyochika"
+    image: "posts/book-review-the-design-of-web-apis/assets/cart-on-the-beach-at-etretat-1862-johan-barthold-jongkind.jpg"
+    alt: "Cart on the Beach at Etretat (1862) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/rising-sun-from-yorozubashi-bridge-1880.jpg"]
+images: ["assets/cart-on-the-beach-at-etretat-1862-johan-barthold-jongkind.jpg"]
 ---
 
 ```

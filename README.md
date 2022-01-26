@@ -41,5 +41,3 @@ git submodule update --remote --merge
 Cover image size:
 
 - 1200px X 628px
-- 600px x 314
-- 300px x 157

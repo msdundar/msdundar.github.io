@@ -1,5 +1,6 @@
 ---
 title: "Encrypting Sensitive Data With Rails"
+description: "Encrypting sensitive data by only using native capabilities of Rails"
 date: 2018-10-01T09:33:06+02:00
 categories:
 - tech
@@ -7,6 +8,11 @@ tags:
 - rails
 - security
 - encryption
+cover:
+    image: "posts/encrypting-sensitive-data-with-rails/assets/landscape-with-man-on-a-donkey-1849-johan-barthold-jongkind.jpg"
+    alt: "Landscape with Man on a Donkey (1849) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/landscape-with-man-on-a-donkey-1849-johan-barthold-jongkind.jpg"]
 ---
 
 The most recent versions (5.1 and 5.2) of Ruby on Rails has shipped with a new

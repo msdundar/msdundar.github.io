@@ -1,11 +1,17 @@
 ---
 title: "Storing Passwords in a Database: Hashing, Salts, and Peppers"
+description: "Storing passwords securely in a database with hashing, salts, and peppers."
 date: 2022-01-24T01:30:33+02:00
 categories:
 - tech
 tags:
 - security
 - hashing
+cover:
+    image: "posts/storing-passwords-in-a-database/assets/road-near-la-cote-saint-andre-1885-johan-barthold-jongkind.jpg"
+    alt: "Road near La Cote-Saint-Andre (1885) - Johan Barthold Jongkind"
+    relative: false
+images: ["assets/road-near-la-cote-saint-andre-1885-johan-barthold-jongkind.jpg"]
 ---
 
 _"How do you store passwords in a database"_? A very common question for back-end-oriented interviews. After conducting
