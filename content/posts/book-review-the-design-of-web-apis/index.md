@@ -1,6 +1,6 @@
 ---
 title: "Book Review: The Design of Web APIs"
-description: "A detailed scenario-based comparison of symmetric and asymmetric encryption methods."
+description: "Book Review: The Design of Web APIs."
 date: 2021-05-02T20:10:16+02:00
 categories:
 - tech
@@ -10,7 +10,7 @@ tags:
 - http
 cover:
     image: "posts/book-review-the-design-of-web-apis/assets/rising-sun-from-yorozubashi-bridge-1880.jpg"
-    alt: "Landscape with bridge (1652) - Pieter de Molijn"
+    alt: "Rising Sun from Yorozubashi Bridge (1880) - Kobayashi Kiyochika"
     relative: false
 images: ["assets/rising-sun-from-yorozubashi-bridge-1880.jpg"]
 ---
