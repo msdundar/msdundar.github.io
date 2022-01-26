@@ -6,6 +6,11 @@ categories:
 tags:
 - security
 - encryption
+cover:
+    image: "https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/assets/jw-chaplin-dover-london-stage-1200-optimized.jpg"
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false
 ---
 
 ### Symmetric Encryption (Private Key Cryptography)
