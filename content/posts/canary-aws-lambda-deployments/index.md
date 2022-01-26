@@ -7,6 +7,7 @@ categories:
 tags:
 - aws
 - lambda
+- golang
 cover:
     image: "posts/canary-aws-lambda-deployments/assets/la-campagne-nivernaise-1873-johan-barthold-jongkind.jpg"
     alt: "La Campagne Nivernaise (1873) - Johan Barthold Jongkind"

@@ -20,5 +20,14 @@
       <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
     </item>
     
+    <item>
+      <title>Canary AWS Lambda Deployments</title>
+      <link>https://www.serhatdundar.com/posts/canary-aws-lambda-deployments/</link>
+      <pubDate>Mon, 14 Jun 2021 22:50:45 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/canary-aws-lambda-deployments/</guid>
+      <description>Gradual/Canary deployments with AWS Lambda explained.</description>
+    </item>
+    
   </channel>
 </rss>

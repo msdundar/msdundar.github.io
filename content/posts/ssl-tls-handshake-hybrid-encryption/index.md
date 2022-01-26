@@ -7,6 +7,8 @@ categories:
 tags:
 - security
 - encryption
+- ssl
+- tls
 cover:
     image: "posts/ssl-tls-handshake-hybrid-encryption/assets/paysage-a-la-cote-saint-andre-1886-johan-barthold-jongkind.jpg"
     alt: "Paysage a la Côte Saint-Andre (1886) - Johan Barthold Jongkind"

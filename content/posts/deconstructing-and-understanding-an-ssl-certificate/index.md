@@ -7,6 +7,8 @@ categories:
 tags:
 - security
 - encryption
+- ssl
+- tls
 cover:
     image: "posts/deconstructing-and-understanding-an-ssl-certificate/assets/la-cote-saint-andre-1880-johan-barthold-jongkind.jpg"
     alt: "La Cote Saint Andre (1880) - Johan Barthold Jongkind"
