@@ -36,6 +36,8 @@ params:
       url: "https://stackoverflow.com/users/818033/msdundar"
     - name: linkedin
       url: "https://www.linkedin.com/in/msdundar/"
+    - name: rss
+      url: "https://www.serhatdundar.com/index.xml"
 
   # seo settings
   author: Serhat M. Dündar
