@@ -30,6 +30,8 @@ params:
 
   # social media icons
   socialIcons:
+    - name: twitter
+      url: "https://twitter.com/msdundar"
     - name: github
       url: "https://github.com/msdundar"
     - name: stackoverflow
