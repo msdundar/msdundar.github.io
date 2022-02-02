@@ -1,7 +1,8 @@
 ---
 title: "Cyber Security After Two Decades"
 description: "Observations on cyber-security after two decades, and my CompTIA Security+ impressions."
-date: 2022-02-07T12:10:50+02:00
+date: 2022-02-15T12:10:50+02:00
+draft: true
 categories:
 - tech
 tags:
