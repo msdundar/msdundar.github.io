@@ -61,7 +61,7 @@ However, stream ciphers can be protected with HMAC (Hashed Message Authenticatio
 
 ### Asymmetric Encryption (Public Key Cryptography)
 
-- Asymmetric encryption is also known as _Public Key Cryptograhy_.
+- Asymmetric encryption is also known as _Public Key Cryptography_.
 - In asymmetric encryption, two different keys (public key and private key) are used for encryption and decryption.
 - As the name suggests, the public key can be distributed publicly over the wire. However,  the private key must be
   protected.
@@ -74,7 +74,7 @@ However, stream ciphers can be protected with HMAC (Hashed Message Authenticatio
 - Asymmetric encryption algorithms in general, depends on huge prime number calculations that are impossible to break if
   the key size is sufficient.
 
-Some popular _asymetric_ encryption algorithms are:
+Some popular _asymmetric_ encryption algorithms are:
 
 | Algorithm      | Purpose/Usage                        |
 |----------------|--------------------------------------|
