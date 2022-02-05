@@ -19,7 +19,7 @@ images: ["assets/rue-a-saint-parize-le-chatel-pres-de-nevers-1862-johan-barthold
 In symmetric encryption only a single key, in other words, a private key is used to encrypt and decrypt a message.
 Symmetric encryption is also known as "Private Key Cryptography" as the whole encryption is only based on a private key.
 
-Some popular _symetric_ encryption algorithms are:
+Some popular _symmetric_ encryption algorithms are:
 
 | Algorithm | Cipher | Key Size              | Block/State Size | Popularity | Notes                                  |
 |-----------|--------|-----------------------|------------------|------------|----------------------------------------|
