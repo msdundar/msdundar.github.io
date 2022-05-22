@@ -48,20 +48,27 @@ script-kiddie story.
 Looking at my [zone-h](https://www.zone-h.org/) profile (_no, I will not tell my username_) at the end of the day with
 pride and honor was a daily activity.
 
-I also witnessed the development and progress of "hacking" communities in Turkey from the beginning. Turkey today, is
-still one of the most active countries in cyber-security, together with India, the USA, Brazil, Ukraine, and Russia.
+I also witnessed the development and progress of "hacking" communities in Turkey from the beginning.
+[cyber-warrior](),
+[hothackers](https://web.archive.org/web/20051124042716/http://www.hothackers.com/),
+[tahribat](https://web.archive.org/web/20051124050846/https://tahribat.com/),
+[ayyildiz](https://web.archive.org/web/20060522012413/https://ayyildiz.org/),
+[redhack](https://web.archive.org/web/20120201074317/https://red-hack.org/), and many others. I have seen their births,
+growths, and deaths. Turkey today, is still one of the most
+active countries in cyber-security, together with India, the USA, Brazil, Ukraine, and Russia.
 
 One thing led to another and I started writing articles for [OWASP Turkey](https://www.webguvenligi.org/belgeler). The
 first article there has published in 2006 by [Bedirhan Urgun](https://twitter.com/bedirhanurgun?lang=en), and then many
 other famous early birds of the Turkish Cyber-Security scene, such as [Mesut Timur](https://www.linkedin.com/in/mtimur/)
 (who works at Facebook nowadays), and [Ferruh Mavituna](https://ferruh.mavituna.com/) (founder of
-[Acunetix](https://www.acunetix.com/) and [Invicti](https://www.invicti.com/) aka. Netsparker) participated in.
+[Acunetix](https://www.acunetix.com/) and [Invicti](https://www.invicti.com/) aka. Netsparker) participated in. People
+publishing articles on OWASP has gone a long way.
 
 Nowadays, none of my early articles are available online - but they can still be accessed on my
 [archive directory](https://www.serhatdundar.com/archive/) (in Turkish).
 
-Then I joined grisapka.org, one of the first examples of big-scale leak publishing websites in Turkey. I don’t remember
-anyone from grisapka, but there was always a new leak, either a critical database, an e-mail list, or personal
+Then I witnessed _grisapka.org_, one of the first examples of big-scale leak publishing websites in Turkey. I don’t
+remember anyone from grisapka, but there was always a new leak, either a critical database, an e-mail list, or personal
 information every day. The site has been shut down after a leak including all transactions of a Turkish bank, from all
 local branches. It’s still a mystery to me who shut it down and who has been running the site. By the way, laws around
 cyber-security were very weak or didn’t even exist back then. Probably none of the activities of this site have ever
