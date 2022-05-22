@@ -10,22 +10,13 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 May 2022 12:10:50 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 20:30:46 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>comptia</title>
-      <link>https://www.serhatdundar.com/tags/comptia/</link>
-      <pubDate>Sun, 22 May 2022 12:10:50 +0200</pubDate>
+      <title>golang</title>
+      <link>https://www.serhatdundar.com/tags/golang/</link>
+      <pubDate>Sun, 22 May 2022 20:30:46 +0200</pubDate>
       
-      <guid>https://www.serhatdundar.com/tags/comptia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://www.serhatdundar.com/tags/security/</link>
-      <pubDate>Sun, 22 May 2022 12:10:50 +0200</pubDate>
-      
-      <guid>https://www.serhatdundar.com/tags/security/</guid>
+      <guid>https://www.serhatdundar.com/tags/golang/</guid>
       <description></description>
     </item>
     
@@ -35,6 +26,15 @@
       <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/tags/encryption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://www.serhatdundar.com/tags/security/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/security/</guid>
       <description></description>
     </item>
     
@@ -62,15 +62,6 @@
       <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/tags/hashing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://www.serhatdundar.com/tags/golang/</link>
-      <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
-      
-      <guid>https://www.serhatdundar.com/tags/golang/</guid>
       <description></description>
     </item>
     
