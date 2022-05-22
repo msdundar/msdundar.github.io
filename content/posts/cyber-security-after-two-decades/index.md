@@ -134,11 +134,7 @@ Scala shined in the JVM world, and so on.
 Compared to software engineering and infrastructure fields, cyber security (at least for "practitioners") stayed very
 stale. If I stopped coding and come back after a decade, I would probably be no different than an alien. But cyber
 security... It wasn't any different at all. Of course, I'm not saying the industry didn't progress. At the end of the
-day, I wouldn't be working in a cyber-security company if I wasn't believing in this industry. Also, I'm not that blind
-for not seeing multi-billion-dollar cyber-security giants such as Crowdstrike and Palo Alto, and all the money flowing
-into this industry.
-
-It's hard for me to explain, but the _practitioner_ section of the industry didn't have the same pace as the
-_enterprise_ section.
+day, I wouldn't be working in a cyber-security company if I didn't believe in this industry. According to my
+observations, the pace of development in the industry was just different for practitioners and enterprises.
 
 Cheers.
