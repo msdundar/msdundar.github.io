@@ -32,14 +32,15 @@ the room. Of course, those other cool kids didn’t tell me how they did it, but
 for me.
 
 These two events made me learn HTML and CSS all by myself, and probably shaped my whole life. If you aren't a native
-English speaker you will get how hard this is. Back then I had literally zero tech books written in my native language,
-which is Turkish and I didn't know any English either. Learning resources on the Internet have been quite limited, very
-often they didn't even exist, and using the Internet with a
+English speaker you will get how hard this is. I had literally zero tech books written in my native language, which is
+Turkish and I didn't know any English either. Learning resources on the Internet have been quite limited, very often
+they didn't even exist, and using the Internet with a
 [56K modem](https://www.youtube.com/watch?v=xalTFH5ht-k&t=96s) was an expensive activity.
 
 One thing led to another and I started learning about cyber security from online forums, probably as a result of
 the traumatic CIH experience. I don't know if the term _Cyber Security_ existed back then, but how we call this field
-of interest was just _hacking_. I say _field of interest_ because Cyber Security wasn't really an industry back then.
+of interest was just _hacking_. I say _field of interest_ because Cyber Security wasn't really an industry in those
+years.
 
 For a couple of years, I was heavily invested in cyber security. I was trying all tools I can find online, such as
 keyloggers, trojans, viruses, and I was testing all vulnerabilities that I can find on random targets. Typical
@@ -70,13 +71,13 @@ Nowadays, none of my early articles are available online - but they can still be
 Then I witnessed _grisapka.org_, one of the first examples of big-scale leak publishing websites in Turkey. I don’t
 remember anyone from grisapka, but there was always a new leak, either a critical database, an e-mail list, or personal
 information every day. The site has been shut down after a leak including all transactions of a Turkish bank, from all
-local branches. It’s still a mystery to me who shut it down and who has been running the site. By the way, laws around
-cyber-security were very weak or didn’t even exist back then. Probably none of the activities of this site have ever
-been considered a crime because of a lack of laws.
+local branches. It’s still a mystery to me who shut it down and who has been running the site. Laws around
+cyber-security were very weak or didn’t even exist in those years. Probably none of the activities of this site have
+ever been considered a crime because of a lack of laws.
 
 I never earned any money from cyber security, and I only did software engineering during my entire career. Maybe it's
-because being a "pentester" or a "security engineer" wasn't even a thing back then. But after almost two decades, I now
-work in a Cyber-Security [company](https://www.cobalt.io/), providing "Pentest as a Service".
+because being a "pentester" or a "security engineer" wasn't even a thing in the past. But after almost two decades, I
+now work in a Cyber-Security [company](https://www.cobalt.io/), providing "Pentest as a Service".
 
 ### Getting Certified or Not?
 
