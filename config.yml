@@ -1,0 +1,151 @@
+baseURL: "https://www.serhatdundar.com/"
+title: Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security
+paginate: 20
+theme: PaperMod
+languageCode: en-us
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-45TXZR4LGJ
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+publishDir: docs
+
+# search config
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  # env settings
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+
+  # social media icons
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/msdundar"
+    - name: github
+      url: "https://github.com/msdundar"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/818033/msdundar"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/msdundar/"
+    - name: rss
+      url: "https://www.serhatdundar.com/index.xml"
+
+  # seo settings
+  author: Serhat M. Dündar
+  keywords: [Ruby, Rails, Golang, PostgreSQL, AWS, Security]
+  title: Blog of Serhat M. Dündar
+  description: "A blog-like personal notebook. Here I post things that I would like to visit and read later."
+  images: ["<link or path of image for opengraph, twitter-cards>"] # TODO
+
+  # theme settings
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  # common settings
+  DateFormat: "January 2, 2006"
+  ShowReadingTime: true
+
+  # homepage settings
+  hideSummary: false
+
+  # blog post settings
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  showtoc: true
+  tocopen: false
+  comments: false
+  hidemeta: false
+  disableScrollToTop: false
+  disableSpecial1stPost: false
+
+  # suggest changes on github
+  editPost:
+    URL: "https://github.com/msdundar/msdundar.github.io/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  # homepage settings
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  # favicons
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+
+  # profileMode:
+  #   enabled: false
+  #   title: Welcome!
+  #   subtitle: "Blog of Serhat M. Dündar"
+  #   imageUrl: "<img location>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # search library settings
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "content"]
+
+# top menu
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai

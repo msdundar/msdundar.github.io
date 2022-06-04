@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tech on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>https://www.serhatdundar.com/categories/tech/</link>
+    <description>Recent content in tech on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jan 2022 07:10:50 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deconstructing and Understanding an SSL Certificate</title>
+      <link>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</guid>
+      <description>Deconstructing an SSL certificate and understanding components of it.</description>
+    </item>
+    
+    <item>
+      <title>Storing Passwords in a Database: Hashing, Salts, and Peppers</title>
+      <link>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</link>
+      <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</guid>
+      <description>Storing passwords securely in a database with hashing, salts, and peppers.</description>
+    </item>
+    
+    <item>
+      <title>A Primitive Hashing Function in Go</title>
+      <link>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</link>
+      <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
+      <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
+    </item>
+    
+    <item>
+      <title>SSL/TLS Handshake, Hybrid Encryption and Public Key Infrastructure (PKI)</title>
+      <link>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</link>
+      <pubDate>Sat, 22 Jan 2022 14:00:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</guid>
+      <description>Hybrid encryption, SSL/TLS handshake and Public Key Infrastructure (PKI) explained.</description>
+    </item>
+    
+    <item>
+      <title>Symmetric and Asymmetric Encryption</title>
+      <link>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</link>
+      <pubDate>Fri, 21 Jan 2022 14:00:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</guid>
+      <description>A detailed scenario-based comparison of symmetric and asymmetric encryption methods.</description>
+    </item>
+    
+    <item>
+      <title>Canary AWS Lambda Deployments</title>
+      <link>https://www.serhatdundar.com/posts/canary-aws-lambda-deployments/</link>
+      <pubDate>Mon, 14 Jun 2021 22:50:45 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/canary-aws-lambda-deployments/</guid>
+      <description>Gradual/Canary deployments with AWS Lambda explained.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: The Design of Web APIs</title>
+      <link>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</link>
+      <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</guid>
+      <description>A book review about The Design of Web APIs.</description>
+    </item>
+    
+    <item>
+      <title>Packing JS projects for AWS Lambda with Grunt</title>
+      <link>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</link>
+      <pubDate>Sat, 02 May 2020 20:40:46 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/packing-js-projects-for-aws-lambda-with-grunt/</guid>
+      <description>A sample Grunt configuration to pack JS projects for AWS Lambda.</description>
+    </item>
+    
+    <item>
+      <title>Rails and PostgreSQL: Types</title>
+      <link>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</link>
+      <pubDate>Fri, 09 Nov 2018 19:24:20 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</guid>
+      <description>Using PostgreSQL types with Ruby on Rails.</description>
+    </item>
+    
+    <item>
+      <title>Rails and PostgreSQL: Constraints</title>
+      <link>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</link>
+      <pubDate>Sat, 03 Nov 2018 15:24:20 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</guid>
+      <description>Using PostgreSQL constraints with Ruby on Rails.</description>
+    </item>
+    
+    <item>
+      <title>Tuning PostgreSQL Configuration</title>
+      <link>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</link>
+      <pubDate>Fri, 02 Nov 2018 11:16:48 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</guid>
+      <description>Using pgtune for a fine-tuned PostgreSQL database.</description>
+    </item>
+    
+    <item>
+      <title>Encrypting Sensitive Data With Rails</title>
+      <link>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</link>
+      <pubDate>Mon, 01 Oct 2018 09:33:06 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</guid>
+      <description>Encrypting sensitive data by only using native capabilities of Rails</description>
+    </item>
+    
+    <item>
+      <title>Rails Instantiated Fixtures</title>
+      <link>https://www.serhatdundar.com/posts/rails-instantiated-fixtures/</link>
+      <pubDate>Wed, 03 May 2017 18:52:34 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/rails-instantiated-fixtures/</guid>
+      <description>Auto-instantiated fixtures in Ruby on Rails.</description>
+    </item>
+    
+    <item>
+      <title>Import Big MySQL Databases Faster</title>
+      <link>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</link>
+      <pubDate>Wed, 05 Apr 2017 11:44:19 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</guid>
+      <description>Configuring InnoDB for faster MySQL imports.</description>
+    </item>
+    
+    <item>
+      <title>Running Rake Tasks in a Loop</title>
+      <link>https://www.serhatdundar.com/posts/running-rake-tasks-in-a-loop/</link>
+      <pubDate>Mon, 03 Apr 2017 01:46:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/running-rake-tasks-in-a-loop/</guid>
+      <description>Re-enabling rake tasks to make them run in a loop.</description>
+    </item>
+    
+    <item>
+      <title>Using has_many :through for Nested Relations in Rails</title>
+      <link>https://www.serhatdundar.com/posts/using-has-many-through-for-nested-relations-in-rails/</link>
+      <pubDate>Sat, 20 Aug 2016 21:19:04 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/using-has-many-through-for-nested-relations-in-rails/</guid>
+      <description>Using &amp;#39;has_many :through&amp;#39; for more effective nested many-to-many relations in Rails.</description>
+    </item>
+    
+    <item>
+      <title>Boolean Type Words in YAML</title>
+      <link>https://www.serhatdundar.com/posts/boolean-type-words-in-yaml/</link>
+      <pubDate>Tue, 07 Jun 2016 09:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/boolean-type-words-in-yaml/</guid>
+      <description>A brief summary of boolean type words in YAML.</description>
+    </item>
+    
+    <item>
+      <title>Calculating Similarity Between Two Data With Ruby and Elasticsearch</title>
+      <link>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</link>
+      <pubDate>Tue, 08 Dec 2015 19:04:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</guid>
+      <description>Using Elasticsearch features for detecting similarity between a set of data with Ruby.</description>
+    </item>
+    
+  </channel>
+</rss>

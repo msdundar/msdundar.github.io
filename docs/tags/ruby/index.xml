@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ruby on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>https://www.serhatdundar.com/tags/ruby/</link>
+    <description>Recent content in ruby on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Apr 2017 01:46:33 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Rake Tasks in a Loop</title>
+      <link>https://www.serhatdundar.com/posts/running-rake-tasks-in-a-loop/</link>
+      <pubDate>Mon, 03 Apr 2017 01:46:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/running-rake-tasks-in-a-loop/</guid>
+      <description>Re-enabling rake tasks to make them run in a loop.</description>
+    </item>
+    
+    <item>
+      <title>Calculating Similarity Between Two Data With Ruby and Elasticsearch</title>
+      <link>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</link>
+      <pubDate>Tue, 08 Dec 2015 19:04:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/</guid>
+      <description>Using Elasticsearch features for detecting similarity between a set of data with Ruby.</description>
+    </item>
+    
+  </channel>
+</rss>

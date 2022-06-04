@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>https://www.serhatdundar.com/tags/</link>
+    <description>Recent content in Tags on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jan 2022 07:10:50 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>encryption</title>
+      <link>https://www.serhatdundar.com/tags/encryption/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/encryption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://www.serhatdundar.com/tags/security/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssl</title>
+      <link>https://www.serhatdundar.com/tags/ssl/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tls</title>
+      <link>https://www.serhatdundar.com/tags/tls/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/tls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hashing</title>
+      <link>https://www.serhatdundar.com/tags/hashing/</link>
+      <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://www.serhatdundar.com/tags/golang/</link>
+      <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://www.serhatdundar.com/tags/aws/</link>
+      <pubDate>Mon, 14 Jun 2021 22:50:45 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lambda</title>
+      <link>https://www.serhatdundar.com/tags/lambda/</link>
+      <pubDate>Mon, 14 Jun 2021 22:50:45 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/lambda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api-design</title>
+      <link>https://www.serhatdundar.com/tags/api-design/</link>
+      <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/api-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>http</title>
+      <link>https://www.serhatdundar.com/tags/http/</link>
+      <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rest</title>
+      <link>https://www.serhatdundar.com/tags/rest/</link>
+      <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://www.serhatdundar.com/tags/javascript/</link>
+      <pubDate>Sat, 02 May 2020 20:40:46 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>https://www.serhatdundar.com/tags/postgresql/</link>
+      <pubDate>Fri, 09 Nov 2018 19:24:20 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://www.serhatdundar.com/tags/rails/</link>
+      <pubDate>Fri, 09 Nov 2018 19:24:20 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://www.serhatdundar.com/tags/mysql/</link>
+      <pubDate>Wed, 05 Apr 2017 11:44:19 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://www.serhatdundar.com/tags/ruby/</link>
+      <pubDate>Mon, 03 Apr 2017 01:46:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yaml</title>
+      <link>https://www.serhatdundar.com/tags/yaml/</link>
+      <pubDate>Tue, 07 Jun 2016 09:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/yaml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elasticsearch</title>
+      <link>https://www.serhatdundar.com/tags/elasticsearch/</link>
+      <pubDate>Tue, 08 Dec 2015 19:04:50 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

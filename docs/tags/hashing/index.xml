@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hashing on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>https://www.serhatdundar.com/tags/hashing/</link>
+    <description>Recent content in hashing on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jan 2022 01:30:33 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storing Passwords in a Database: Hashing, Salts, and Peppers</title>
+      <link>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</link>
+      <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</guid>
+      <description>Storing passwords securely in a database with hashing, salts, and peppers.</description>
+    </item>
+    
+    <item>
+      <title>A Primitive Hashing Function in Go</title>
+      <link>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</link>
+      <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
+      <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
+    </item>
+    
+  </channel>
+</rss>

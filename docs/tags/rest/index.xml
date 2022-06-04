@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rest on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>https://www.serhatdundar.com/tags/rest/</link>
+    <description>Recent content in rest on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 May 2021 20:10:16 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review: The Design of Web APIs</title>
+      <link>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</link>
+      <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</guid>
+      <description>A book review about The Design of Web APIs.</description>
+    </item>
+    
+  </channel>
+</rss>
