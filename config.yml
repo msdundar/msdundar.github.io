@@ -34,8 +34,6 @@ params:
       url: "https://twitter.com/msdundar"
     - name: github
       url: "https://github.com/msdundar"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/818033/msdundar"
     - name: linkedin
       url: "https://www.linkedin.com/in/msdundar/"
     - name: rss
@@ -139,7 +137,10 @@ menu:
       name: search
       url: /search/
       weight: 30
-
+    - identifier: artwork
+      name: artwork
+      url: /art/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
