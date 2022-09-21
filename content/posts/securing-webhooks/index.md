@@ -14,7 +14,7 @@ cover:
 images: ["assets/la-place-de-leglise-1866-johan-barthold-jongkind"]
 ---
 
-In this article, I will focus on the rationale behind some popular webhook security methods and will try to explain
+In this post, I will focus on the rationale behind some popular webhook security methods and will try to explain
 them in simple terms.
 
 ## 1. Basics Risks and Measures
