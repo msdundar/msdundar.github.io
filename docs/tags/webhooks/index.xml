@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>webhooks on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>https://www.serhatdundar.com/tags/webhooks/</link>
+    <description>Recent content in webhooks on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <image>
+      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Sep 2022 20:10:16 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/webhooks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing webhooks</title>
+      <link>https://www.serhatdundar.com/posts/securing-webhooks/</link>
+      <pubDate>Sun, 18 Sep 2022 20:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/securing-webhooks/</guid>
+      <description>An overview and comparison of various webhook security methods</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.serhatdundar.com/</loc>
-    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/categories/</loc>
-    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/posts/</loc>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/posts/securing-webhooks/</loc>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/security/</loc>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/</loc>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/categories/tech/</loc>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/webhooks/</loc>
+    <lastmod>2022-09-18T20:10:16+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</loc>
     <lastmod>2022-01-25T07:10:50+02:00</lastmod>
@@ -14,19 +32,7 @@
     <loc>https://www.serhatdundar.com/tags/encryption/</loc>
     <lastmod>2022-01-25T07:10:50+02:00</lastmod>
   </url><url>
-    <loc>https://www.serhatdundar.com/posts/</loc>
-    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/tags/security/</loc>
-    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
-  </url><url>
     <loc>https://www.serhatdundar.com/tags/ssl/</loc>
-    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/tags/</loc>
-    <lastmod>2022-01-25T07:10:50+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/categories/tech/</loc>
     <lastmod>2022-01-25T07:10:50+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/tags/tls/</loc>
