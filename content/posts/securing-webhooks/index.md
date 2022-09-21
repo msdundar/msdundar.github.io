@@ -1,5 +1,5 @@
 ---
-title: "Securing webhooks"
+title: "Securing Webhooks"
 description: "An overview and comparison of various webhook security methods"
 date: 2022-09-18T20:10:16+02:00
 categories:
@@ -13,9 +13,6 @@ cover:
     relative: false
 images: ["assets/la-place-de-leglise-1866-johan-barthold-jongkind"]
 ---
-
-My team at [Cobalt](https://www.cobalt.io) recently released _webhooks_ as part of our integration offerings.
-Therefore, I had to update my knowledge on the topic, especially on the security part.
 
 In this article, I will focus on the rationale behind some popular webhook security methods and will try to explain
 them in simple terms.
