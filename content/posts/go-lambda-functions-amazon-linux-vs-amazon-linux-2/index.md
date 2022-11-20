@@ -18,8 +18,10 @@ images: ["assets/landscape-with-bridge-1652.jpg"]
 ## Introduction
 
 AL2 runtimes and migrating from AL1 to AL2 for NodeJS, Python, Ruby, and .NET are pretty straightforward. The only
-exception is Go. Things are a bit cumbersome there as a custom runtime named `provided.al2` comes into play. By the
-time of this writing, the following runtimes are [provided](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) by AWS:
+exception is Go. Things are a bit cumbersome there as a custom runtime named `provided.al2` comes into play.
+
+By the time of this writing, the following runtimes are
+[provided](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) by AWS:
 
 | Name               | Identifier    | Operating system | Architectures |
 |--------------------|---------------|------------------|---------------|
@@ -93,8 +95,10 @@ func main() {
 Compilation steps differ a bit depending on the selected architecture. Note the `GOARCH` section:
 
 
-- `x86_64 (AL1)` => `GOOS=linux GOARCH=amd64 go build -o sample-lambda ./...`
-- `arm64 (AL2)` => `GOOS=linux GOARCH=arm64 go build -o bootstrap ./...`
+- x86_64 (AL1): `GOOS=linux GOARCH=amd64 go build -o sample-lambda ./...`
+- arm64 (AL2): `GOOS=linux GOARCH=arm64 go build -o bootstrap ./...`
+
+---------------------
 
 Terraform configuration for the IAM role:
 
