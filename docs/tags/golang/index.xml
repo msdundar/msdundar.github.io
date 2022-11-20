@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 18:30:19 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 22:10:16 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go runtimes in AWS Lambda</title>
+      <link>https://www.serhatdundar.com/posts/go-lambda-functions-amazon-linux-vs-amazon-linux-2/</link>
+      <pubDate>Sat, 19 Nov 2022 22:10:16 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/go-lambda-functions-amazon-linux-vs-amazon-linux-2/</guid>
+      <description>A brief comparison of AWS Lambda Go runtimes: go1.x VS. provided.al2</description>
+    </item>
+    
     <item>
       <title>A Primitive Hashing Function in Go</title>
       <link>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</link>

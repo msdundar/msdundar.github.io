@@ -1,6 +1,6 @@
 ---
 title: "Book Review: The Design of Web APIs"
-description: "A book review about The Design of Web APIs."
+description: "A book review of The Design of Web APIs."
 date: 2021-05-02T20:10:16+02:00
 categories:
 - tech
@@ -17,7 +17,7 @@ images: ["assets/cart-on-the-beach-at-etretat-1862-johan-barthold-jongkind.jpg"]
 
 ```
 Title: The Design of Web APIs
-ISBN: 9781617295102
+ISBN13: 978-1617295102
 Publisher: Manning
 WWW: https://www.manning.com/books/the-design-of-web-apis
 Pages: 389
