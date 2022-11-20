@@ -1,6 +1,6 @@
 ---
 title: "Go runtimes in AWS Lambda"
-description: "A brief comparison of AWS Lambda Go runtimes: go1.x VS. provided.al2"
+description: "A brief comparison of Go runtimes in AWS Lambda: go1.x VS. provided.al2"
 date: 2022-11-19T22:10:16+02:00
 categories:
 - tech

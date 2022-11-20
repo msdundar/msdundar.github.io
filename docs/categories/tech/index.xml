@@ -17,7 +17,7 @@
       <pubDate>Sat, 19 Nov 2022 22:10:16 +0200</pubDate>
       
       <guid>https://www.serhatdundar.com/posts/go-lambda-functions-amazon-linux-vs-amazon-linux-2/</guid>
-      <description>A brief comparison of AWS Lambda Go runtimes: go1.x VS. provided.al2</description>
+      <description>A brief comparison of Go runtimes in AWS Lambda: go1.x VS. provided.al2</description>
     </item>
     
     <item>
