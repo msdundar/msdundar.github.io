@@ -56,39 +56,36 @@ the lambda that I will be using for testing purposes:
 package main
 
 import (
-	"context"
-	"log"
+  "context"
+  "encoding/json"
+  "log"
 
-	"github.com/aws/aws-lambda-go/events"
-	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/aws/aws-lambda-go/lambdacontext"
+  "github.com/aws/aws-lambda-go/events"
+  "github.com/aws/aws-lambda-go/lambda"
+  "github.com/aws/aws-lambda-go/lambdacontext"
 )
 
+type LambdaDebug struct {
+  Context lambdacontext.LambdaContext
+  Request events.APIGatewayProxyRequest
+}
+
 func HandleRequest(ctx context.Context, request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
-	lc, _ := lambdacontext.FromContext(ctx)
-	log.Printf("Request ID: %v", lc.AwsRequestID)
-	log.Printf("Invoked function ARN: %v", lc.InvokedFunctionArn)
+  lc, _ := lambdacontext.FromContext(ctx)
 
-	log.Printf("Headers:")
-	for k, v := range request.Headers {
-		log.Printf("   %s: %s\n", k, v)
-	}
+  resp := &LambdaDebug{
+    Context: *lc,
+    Request: request,
+  }
 
-	log.Printf("Query string params:")
-	for k, v := range request.QueryStringParameters {
-		log.Printf("   %s: %s\n", k, v)
-	}
+  data, _ := json.Marshal(resp)
 
-	log.Printf("Path params:")
-	for k, v := range request.PathParameters {
-		log.Printf("   %s: %s\n", k, v)
-	}
-
-	return events.APIGatewayProxyResponse{Body: request.Body, StatusCode: 200}, nil
+  log.Printf("Request data %s", string(data))
+  return events.APIGatewayProxyResponse{Body: string(data), StatusCode: 200}, nil
 }
 
 func main() {
-	lambda.Start(HandleRequest)
+  lambda.Start(HandleRequest)
 }
 ```
 
