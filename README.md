@@ -38,6 +38,4 @@ Update theme:
 git submodule update --remote --merge
 ```
 
-Cover image size:
-
-- 1200px X 628px
+Cover image size: `1200x628px`
