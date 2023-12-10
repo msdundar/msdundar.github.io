@@ -46,10 +46,9 @@ special place in my heart and I will definitely keep looking for better seats ne
 ## Trips
 
 I had a few flights and road trips this year. Spending May in Turkey with family and next to the sea was totally
-refreshing. Then Corfu/Greece in June, Amsterdam in July were great distractions. I also had my very first camping
-experience in Germany in August, near Waldreich (40km to Frankfurt an der Oder) with some friends. In
-October, we had another road trip to Dusseldorf, Cologne, Bonn, Koblenz, Braubach, and Boppard, which was again quite
-fun.
+refreshing. Then Corfu/Greece in June, and Amsterdam in July were great distractions. I also had my very first camping
+experience in Germany, near Waldreich (40km to Frankfurt an der Oder) with some friends in August. In October, we had
+another road trip to Dusseldorf, Cologne, Bonn, Koblenz, Braubach, and Boppard, which was again quite fun.
 
 {{< figure src="assets/2-corfu-greece.jpg" caption="Corfu / Greece" >}}
 
@@ -83,15 +82,16 @@ In February, I made the decision to leave [Cobalt](https://www.cobalt.io) after 
 [Delivery Hero](https://www.deliveryhero.com/). I’m glad to have the Cobalt experience, as I had an amazing team
 full of talented people there, and I had the chance to work with US-based colleagues and learn that market.
 
-However, I had enough reasons lined up when I quit, most notably; being more and more pessimistic about the future of
-the company, disagreeing with the [proceduralist promotions](https://staffeng.com/guides/finding-the-right-company) in
-engineering, and losing my faith in the product we are building. This decision turned out quite accurate as the company
-did three rounds of layoffs after I left.
+However, I had enough reasons lined up when I quit, the most notable ones were; being more and more pessimistic about
+the future of the company, disagreeing with the
+[proceduralist promotions](https://staffeng.com/guides/finding-the-right-company) in engineering, and losing my faith
+in the product we were building. This decision turned out quite accurate as the company did three rounds of layoffs
+after I left.
 
 I’m glad that I landed on Delivery Hero as it satisfied all my expectations so far. Actually, the position turned
 out even better after the organization restructuring as I had the chance to lead the _Configuration and Secrets Management_
 efforts where I could combine various disciplines, such as Software Engineering, Security Engineering, and Systems
-Engineering. In September I was a;sp presented with a stretch opportunity where I had the chance to lead a sub-domain
+Engineering. In September I was presented with a stretch opportunity where I had the chance to lead a sub-domain
 that consisted of two squads, including my original team. Therefore, I can say that 2023 was a positive year as well
 career-wise.
 
