@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.serhatdundar.com/tags/aws/</loc>
-    <lastmod>2022-11-19T22:10:16+02:00</lastmod>
+    <loc>https://www.serhatdundar.com/posts/a-recap-of-2023/</loc>
+    <lastmod>2023-12-09T14:30:00+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/</loc>
-    <lastmod>2022-11-19T22:10:16+02:00</lastmod>
+    <lastmod>2023-12-09T14:30:00+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/categories/</loc>
+    <lastmod>2023-12-09T14:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/categories/life/</loc>
+    <lastmod>2023-12-09T14:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/posts/</loc>
+    <lastmod>2023-12-09T14:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/recap/</loc>
+    <lastmod>2023-12-09T14:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/</loc>
+    <lastmod>2023-12-09T14:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/tags/aws/</loc>
     <lastmod>2022-11-19T22:10:16+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/posts/go-lambda-functions-amazon-linux-vs-amazon-linux-2/</loc>
@@ -18,12 +33,6 @@
     <lastmod>2022-11-19T22:10:16+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/tags/lambda/</loc>
-    <lastmod>2022-11-19T22:10:16+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/posts/</loc>
-    <lastmod>2022-11-19T22:10:16+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/tags/</loc>
     <lastmod>2022-11-19T22:10:16+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/categories/tech/</loc>

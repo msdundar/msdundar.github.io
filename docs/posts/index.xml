@@ -5,12 +5,22 @@
     <link>https://www.serhatdundar.com/posts/</link>
     <description>Recent content in Posts on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
     <image>
+      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
       <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Nov 2022 22:10:16 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Dec 2023 14:30:00 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A recap of 2023</title>
+      <link>https://www.serhatdundar.com/posts/a-recap-of-2023/</link>
+      <pubDate>Sat, 09 Dec 2023 14:30:00 +0200</pubDate>
+      
+      <guid>https://www.serhatdundar.com/posts/a-recap-of-2023/</guid>
+      <description>Highlights, lowlights and moments from 2023</description>
+    </item>
+    
     <item>
       <title>Go runtimes in AWS Lambda</title>
       <link>https://www.serhatdundar.com/posts/go-lambda-functions-amazon-linux-vs-amazon-linux-2/</link>
