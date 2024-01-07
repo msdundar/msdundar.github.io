@@ -1,7 +1,7 @@
 ---
 title: "A recap of 2023"
 description: "Highlights, lowlights and moments from 2023"
-date: 2023-12-09T14:30:00+02:00
+date: 2023-01-08T02:00:00+02:00
 categories:
 - life
 tags:
@@ -51,6 +51,8 @@ experience in Germany, near Waldreich (40km to Frankfurt an der Oder) with some 
 another road trip to Dusseldorf, Cologne, Bonn, Koblenz, Braubach, and Boppard, which was again quite fun.
 
 {{< figure src="assets/2-corfu-greece.jpg" caption="Corfu / Greece" >}}
+
+Then I had the chance to end the year with another road trip to Italy, this time to Verona, Bologna, and Florence. Combining Christmas and New Year’s Eve, and spending 11 days on the road in the Northern part of Italy was very fun. Also, we welcomed the New Year in Florence, which was a magnificent experience and a great escape from Berlin’s New Year fireworks madness.
 
 Sadly, I couldn’t have any trips outside of the EU this year, as I changed jobs and the probation period was a total
 hustle and bustle.
