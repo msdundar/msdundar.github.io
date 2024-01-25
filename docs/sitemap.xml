@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.serhatdundar.com/posts/a-recap-of-2023/</loc>
-    <lastmod>2023-01-08T02:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://www.serhatdundar.com/</loc>
-    <lastmod>2023-01-08T02:00:00+02:00</lastmod>
+    <lastmod>2024-01-25T09:30:00+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/categories/</loc>
+    <lastmod>2024-01-25T09:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/categories/projects/</loc>
+    <lastmod>2024-01-25T09:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/projects/</loc>
+    <lastmod>2024-01-25T09:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/projects/dinazor/</loc>
+    <lastmod>2024-01-25T09:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://www.serhatdundar.com/posts/a-recap-of-2023/</loc>
     <lastmod>2023-01-08T02:00:00+02:00</lastmod>
   </url><url>
     <loc>https://www.serhatdundar.com/categories/life/</loc>
@@ -142,8 +151,6 @@
   </url><url>
     <loc>https://www.serhatdundar.com/tags/elasticsearch/</loc>
     <lastmod>2015-12-08T19:04:50+02:00</lastmod>
-  </url><url>
-    <loc>https://www.serhatdundar.com/projects/</loc>
   </url><url>
     <loc>https://www.serhatdundar.com/archives/</loc>
   </url><url>
