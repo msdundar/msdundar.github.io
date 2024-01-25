@@ -7,10 +7,10 @@ categories:
 tags:
 - rails
 cover:
-    image: "posts/using-has-many-through-for-nested-relations-in-rails/assets/the-towpath-1864-johan-barthold-jongkind.jpg"
+    image: "posts/using-has-many-through-for-nested-relations-in-rails/assets/the-towpath-1864-johan-barthold-jongkind.webp"
     alt: "The Towpath (1864) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/the-towpath-1864-johan-barthold-jongkind.jpg"]
+images: ["assets/the-towpath-1864-johan-barthold-jongkind.webp"]
 ---
 
 `has_many :through` is a useful association type of Rails. It's mostly popular and often used as a join model for

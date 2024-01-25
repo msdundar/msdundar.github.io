@@ -7,10 +7,10 @@ categories:
 tags:
 - rails
 cover:
-    image: "posts/rails-instantiated-fixtures/assets/notre-dame-vue-du-quai-de-la-tournelle-1852-johan-barthold-jongkind.jpg"
+    image: "posts/rails-instantiated-fixtures/assets/notre-dame-vue-du-quai-de-la-tournelle-1852-johan-barthold-jongkind.webp"
     alt: "Notre-Dame vue du quai de la Tournelle (1852) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/notre-dame-vue-du-quai-de-la-tournelle-1852-johan-barthold-jongkind.jpg"]
+images: ["assets/notre-dame-vue-du-quai-de-la-tournelle-1852-johan-barthold-jongkind.webp"]
 ---
 
 Here is a sample Ruby on Rails fixture named as `newsletter`:

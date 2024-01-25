@@ -7,10 +7,10 @@ categories:
 tags:
 - postgresql
 cover:
-    image: "posts/tuning-postgresql-configuration/assets/the-church-of-overschie-1866-johan-barthold-jongkind.jpg"
+    image: "posts/tuning-postgresql-configuration/assets/the-church-of-overschie-1866-johan-barthold-jongkind.webp"
     alt: "The Church of Overschie (1866) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/the-church-of-overschie-1866-johan-barthold-jongkind.jpg"]
+images: ["assets/the-church-of-overschie-1866-johan-barthold-jongkind.webp"]
 ---
 
 ## Configuration File

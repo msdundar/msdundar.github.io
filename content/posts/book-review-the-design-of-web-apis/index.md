@@ -9,10 +9,10 @@ tags:
 - rest
 - http
 cover:
-    image: "posts/book-review-the-design-of-web-apis/assets/cart-on-the-beach-at-etretat-1862-johan-barthold-jongkind.jpg"
+    image: "posts/book-review-the-design-of-web-apis/assets/cart-on-the-beach-at-etretat-1862-johan-barthold-jongkind.webp"
     alt: "Cart on the Beach at Etretat (1862) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/cart-on-the-beach-at-etretat-1862-johan-barthold-jongkind.jpg"]
+images: ["assets/cart-on-the-beach-at-etretat-1862-johan-barthold-jongkind.webp"]
 ---
 
 ```

@@ -8,10 +8,10 @@ tags:
 - security
 - hashing
 cover:
-    image: "posts/storing-passwords-in-a-database/assets/road-near-la-cote-saint-andre-1885-johan-barthold-jongkind.jpg"
+    image: "posts/storing-passwords-in-a-database/assets/road-near-la-cote-saint-andre-1885-johan-barthold-jongkind.webp"
     alt: "Road near La Cote-Saint-Andre (1885) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/road-near-la-cote-saint-andre-1885-johan-barthold-jongkind.jpg"]
+images: ["assets/road-near-la-cote-saint-andre-1885-johan-barthold-jongkind.webp"]
 ---
 
 _"How do you store passwords in a database"_? A very common question for back-end-oriented interviews. After conducting

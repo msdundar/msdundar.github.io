@@ -7,10 +7,10 @@ categories:
 tags:
 - mysql
 cover:
-    image: "posts/import-big-mysql-databases-faster/assets/le-chateau-de-virieu-sur-bourbre-isere-1877-johan-barthold-jongkind.jpg"
+    image: "posts/import-big-mysql-databases-faster/assets/le-chateau-de-virieu-sur-bourbre-isere-1877-johan-barthold-jongkind.webp"
     alt: "Le Chateau De Virieu-Sur-Bourbre, Isere (1877) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/le-chateau-de-virieu-sur-bourbre-isere-1877-johan-barthold-jongkind.jpg"]
+images: ["assets/le-chateau-de-virieu-sur-bourbre-isere-1877-johan-barthold-jongkind.webp"]
 ---
 
 I recently had to import some quite large SQL dumps to my local machine for data

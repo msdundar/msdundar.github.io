@@ -9,10 +9,10 @@ tags:
 - golang
 - hashing
 cover:
-    image: "posts/a-primitive-hashing-function-in-go/assets/bords-de-riviere-1868-johan-barthold-jongkind.jpg"
+    image: "posts/a-primitive-hashing-function-in-go/assets/bords-de-riviere-1868-johan-barthold-jongkind.webp"
     alt: "Bords de riviere (1868) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/bords-de-riviere-1868-johan-barthold-jongkind.jpg"]
+images: ["assets/bords-de-riviere-1868-johan-barthold-jongkind.webp"]
 ---
 
 Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable

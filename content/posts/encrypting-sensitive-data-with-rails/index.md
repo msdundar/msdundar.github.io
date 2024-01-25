@@ -9,10 +9,10 @@ tags:
 - security
 - encryption
 cover:
-    image: "posts/encrypting-sensitive-data-with-rails/assets/landscape-with-man-on-a-donkey-1849-johan-barthold-jongkind.jpg"
+    image: "posts/encrypting-sensitive-data-with-rails/assets/landscape-with-man-on-a-donkey-1849-johan-barthold-jongkind.webp"
     alt: "Landscape with Man on a Donkey (1849) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/landscape-with-man-on-a-donkey-1849-johan-barthold-jongkind.jpg"]
+images: ["assets/landscape-with-man-on-a-donkey-1849-johan-barthold-jongkind.webp"]
 ---
 
 The most recent versions (5.1 and 5.2) of Ruby on Rails has shipped with a new

@@ -9,10 +9,10 @@ tags:
 - golang
 - lambda
 cover:
-    image: "posts/go-lambda-functions-amazon-linux-vs-amazon-linux-2/assets/rising-sun-from-yorozubashi-bridge-1880-kobayashi-kiyochika.jpg"
+    image: "posts/go-lambda-functions-amazon-linux-vs-amazon-linux-2/assets/rising-sun-from-yorozubashi-bridge-1880-kobayashi-kiyochika.webp"
     alt: "Landscape with Bridge (1652) - Pieter de Molijn"
     relative: false
-images: ["assets/rising-sun-from-yorozubashi-bridge-1880-kobayashi-kiyochika.jpg"]
+images: ["assets/rising-sun-from-yorozubashi-bridge-1880-kobayashi-kiyochika.webp"]
 ---
 
 ## Introduction

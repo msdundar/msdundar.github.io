@@ -8,10 +8,10 @@ tags:
 - javascript
 - lambda
 cover:
-    image: "posts/packing-js-projects-for-aws-lambda-with-grunt/assets/le-spui-a-la-haye-1868-johan-barthold-jongkind.jpg"
+    image: "posts/packing-js-projects-for-aws-lambda-with-grunt/assets/le-spui-a-la-haye-1868-johan-barthold-jongkind.webp"
     alt: "Le Spui A La Haye (1868) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/le-spui-a-la-haye-1868-johan-barthold-jongkind.jpg"]
+images: ["assets/le-spui-a-la-haye-1868-johan-barthold-jongkind.webp"]
 ---
 
 Grunt is a Javascript task runner. It automates repetitive tasks like

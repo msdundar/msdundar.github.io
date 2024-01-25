@@ -8,10 +8,10 @@ tags:
 - rails
 - postgresql
 cover:
-    image: "posts/rails-and-postgresql-types/assets/notre-dame-of-paris-seen-from-the-quai-de-la-tournelle-1863.jpg"
+    image: "posts/rails-and-postgresql-types/assets/notre-dame-of-paris-seen-from-the-quai-de-la-tournelle-1863.webp"
     alt: "Notre Dame of Paris seen from the Quai de la Tournelle (1863) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/notre-dame-of-paris-seen-from-the-quai-de-la-tournelle-1863.jpg"]
+images: ["assets/notre-dame-of-paris-seen-from-the-quai-de-la-tournelle-1863.webp"]
 ---
 
 During [nokul](https://github.com/omu/nokul) we've heavily implemented PostgreSQL features into our

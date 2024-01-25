@@ -7,10 +7,10 @@ categories:
 tags:
 - recap
 cover:
-    image: "posts/a-recap-of-2023/assets/the-taro-inari-shrine-in-the-rice-fields-at-asakusa-1877-1882-kobayashi-kiyochika.jpg"
+    image: "posts/a-recap-of-2023/assets/the-taro-inari-shrine-in-the-rice-fields-at-asakusa-1877-1882-kobayashi-kiyochika.webp"
     alt: "Halage En Hollande (1867) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/the-taro-inari-shrine-in-the-rice-fields-at-asakusa-1877-1882-kobayashi-kiyochika.jpg"]
+images: ["assets/the-taro-inari-shrine-in-the-rice-fields-at-asakusa-1877-1882-kobayashi-kiyochika.webp"]
 ---
 
 Looking back, 2023 wasn't a bad year at all. There are many events that I'm happy about and that I want to log and

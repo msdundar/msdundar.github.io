@@ -10,10 +10,10 @@ tags:
 - ssl
 - tls
 cover:
-    image: "posts/deconstructing-and-understanding-an-ssl-certificate/assets/la-cote-saint-andre-1880-johan-barthold-jongkind.jpg"
+    image: "posts/deconstructing-and-understanding-an-ssl-certificate/assets/la-cote-saint-andre-1880-johan-barthold-jongkind.webp"
     alt: "La Cote Saint Andre (1880) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/la-cote-saint-andre-1880-johan-barthold-jongkind.jpg"]
+images: ["assets/la-cote-saint-andre-1880-johan-barthold-jongkind.webp"]
 ---
 
 Checking SSL certificates on a browser is easy. Just click the green lock icon and you're good to go. But what if

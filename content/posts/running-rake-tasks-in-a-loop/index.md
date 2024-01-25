@@ -8,10 +8,10 @@ tags:
 - ruby
 - rails
 cover:
-    image: "posts/running-rake-tasks-in-a-loop/assets/ornacieux-1879-johan-barthold-jongkind.jpg"
+    image: "posts/running-rake-tasks-in-a-loop/assets/ornacieux-1879-johan-barthold-jongkind.webp"
     alt: "Ornacieux (1879) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/ornacieux-1879-johan-barthold-jongkind.jpg"]
+images: ["assets/ornacieux-1879-johan-barthold-jongkind.webp"]
 ---
 
 Rake tasks in a loop, will only executed once if they are not "re-enabled".

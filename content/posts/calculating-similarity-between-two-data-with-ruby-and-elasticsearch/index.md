@@ -8,10 +8,10 @@ tags:
 - ruby
 - elasticsearch
 cover:
-    image: "posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/assets/halage-en-hollande-1867-johan-barthold-jongkind.jpg"
+    image: "posts/calculating-similarity-between-two-data-with-ruby-and-elasticsearch/assets/halage-en-hollande-1867-johan-barthold-jongkind.webp"
     alt: "Halage En Hollande (1867) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/halage-en-hollande-1867-johan-barthold-jongkind.jpg"]
+images: ["assets/halage-en-hollande-1867-johan-barthold-jongkind.webp"]
 ---
 
 I recently had to find similar data located in a dataset, in order to find potential duplicate records:

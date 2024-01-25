@@ -8,10 +8,10 @@ tags:
 - rails
 - postgresql
 cover:
-    image: "posts/rails-and-postgresql-constraints/assets/le-treport-le-matin-normandie-1852-johan-barthold-jongkind.jpg"
+    image: "posts/rails-and-postgresql-constraints/assets/le-treport-le-matin-normandie-1852-johan-barthold-jongkind.webp"
     alt: "Le Treport, Le Matin, Normandie (1852) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/le-treport-le-matin-normandie-1852-johan-barthold-jongkind.jpg"]
+images: ["assets/le-treport-le-matin-normandie-1852-johan-barthold-jongkind.webp"]
 ---
 
 During [nokul](https://github.com/omu/nokul) we've heavily implemented PostgreSQL features into our

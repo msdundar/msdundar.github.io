@@ -9,10 +9,10 @@ tags:
 - lambda
 - golang
 cover:
-    image: "posts/canary-aws-lambda-deployments/assets/la-campagne-nivernaise-1873-johan-barthold-jongkind.jpg"
+    image: "posts/canary-aws-lambda-deployments/assets/la-campagne-nivernaise-1873-johan-barthold-jongkind.webp"
     alt: "La Campagne Nivernaise (1873) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/la-campagne-nivernaise-1873-johan-barthold-jongkind.jpg"]
+images: ["assets/la-campagne-nivernaise-1873-johan-barthold-jongkind.webp"]
 ---
 
 Lambdas aren't easy. This isn't just a provocative start, but instead my overall

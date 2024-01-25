@@ -8,10 +8,10 @@ tags:
 - security
 - encryption
 cover:
-    image: "posts/symmetric-and-asymmetric-encryption/assets/rue-a-saint-parize-le-chatel-pres-de-nevers-1862-johan-barthold-jongkind.jpg"
+    image: "posts/symmetric-and-asymmetric-encryption/assets/rue-a-saint-parize-le-chatel-pres-de-nevers-1862-johan-barthold-jongkind.webp"
     alt: "Rue A Saint-Parize-Le-Chatel, Pres De Nevers (1862) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/rue-a-saint-parize-le-chatel-pres-de-nevers-1862-johan-barthold-jongkind.jpg"]
+images: ["assets/rue-a-saint-parize-le-chatel-pres-de-nevers-1862-johan-barthold-jongkind.webp"]
 ---
 
 ### Symmetric Encryption (Private Key Cryptography)

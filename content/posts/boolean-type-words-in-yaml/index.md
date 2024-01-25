@@ -7,10 +7,10 @@ categories:
 tags:
 - yaml
 cover:
-    image: "posts/boolean-type-words-in-yaml/assets/environs-de-grenoble-1873-johan-barthold-jongkind.jpg"
+    image: "posts/boolean-type-words-in-yaml/assets/environs-de-grenoble-1873-johan-barthold-jongkind.webp"
     alt: "Environs de Grenoble (1873) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/environs-de-grenoble-1873-johan-barthold-jongkind.jpg"]
+images: ["assets/environs-de-grenoble-1873-johan-barthold-jongkind.webp"]
 ---
 
 YAML is a widely used data serialization language. In almost any software

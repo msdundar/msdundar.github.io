@@ -8,10 +8,10 @@ tags:
 - security
 - webhooks
 cover:
-    image: "posts/securing-webhooks/assets/la-place-de-leglise-1866-johan-barthold-jongkind.jpg"
+    image: "posts/securing-webhooks/assets/la-place-de-leglise-1866-johan-barthold-jongkind.webp"
     alt: "La Place de l'Eglise (1866) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/la-place-de-leglise-1866-johan-barthold-jongkind"]
+images: ["assets/la-place-de-leglise-1866-johan-barthold-jongkind.webp"]
 ---
 
 In this post, I will focus on the rationale behind some popular webhook security methods and will try to explain

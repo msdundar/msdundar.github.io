@@ -10,10 +10,10 @@ tags:
 - ssl
 - tls
 cover:
-    image: "posts/ssl-tls-handshake-hybrid-encryption/assets/paysage-a-la-cote-saint-andre-1886-johan-barthold-jongkind.jpg"
+    image: "posts/ssl-tls-handshake-hybrid-encryption/assets/paysage-a-la-cote-saint-andre-1886-johan-barthold-jongkind.webp"
     alt: "Paysage a la Côte Saint-Andre (1886) - Johan Barthold Jongkind"
     relative: false
-images: ["assets/paysage-a-la-cote-saint-andre-1886-johan-barthold-jongkind.jpg"]
+images: ["assets/paysage-a-la-cote-saint-andre-1886-johan-barthold-jongkind.webp"]
 ---
 
 ### Hybrid Encryption: Symmetric and Asymmetric Encryption Combined
