@@ -38,4 +38,10 @@ Update theme:
 git submodule update --remote --merge
 ```
 
+Update hugo:
+
+```sh
+brew update && brew upgrade hugo
+```
+
 Cover image size: `1200x628px`
