@@ -57,7 +57,7 @@ trap and miss some fundamentals. If you are a software engineer got into the
 industry with some web frameworks such as React, Rails, VueJS etc. this book can
 potentially uncover details that your framework hides.
 
-{{< tweet 1305285202726453248 >}}
+{{< tweet user="rakyll" id="1305285202726453248" >}}
 
 Fundamentals don't get old. Frameworks, languages and tools come and go, and
 usually faster than your pace of learning, but fundamental knowledge stays

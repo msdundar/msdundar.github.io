@@ -41,7 +41,7 @@ params:
 
   # seo settings
   author: Serhat M. Dündar
-  keywords: [Ruby, Rails, Golang, PostgreSQL, AWS, Security]
+  keywords: [Ruby, Rails, Go, PostgreSQL, AWS, Security]
   title: Blog of Serhat M. Dündar
   description: "A blog-like personal notebook. Here I post things that I would like to visit and read later."
   images: ["<link or path of image for opengraph, twitter-cards>"] # TODO
@@ -125,22 +125,35 @@ params:
 # top menu
 menu:
   main:
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 10
+      weight: 20
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 30
     - identifier: archives
       name: archives
       url: /archives/
-      weight: 20
+      weight: 40
     - identifier: search
       name: search
       url: /search/
-      weight: 30
+      weight: 50
     - identifier: artwork
       name: artwork
       url: /art/
-      weight: 40
+      weight: 60
+
+taxonomies:
+  category: categories
+  tag: tags
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
