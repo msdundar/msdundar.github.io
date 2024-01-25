@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tls on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
     <link>https://www.serhatdundar.com/tags/tls/</link>
@@ -11,24 +11,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jan 2022 07:10:50 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/tls/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 07:10:50 +0200</lastBuildDate>
+    <atom:link href="https://www.serhatdundar.com/tags/tls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deconstructing and Understanding an SSL Certificate</title>
       <link>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</link>
       <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</guid>
       <description>Deconstructing an SSL certificate and understanding components of it.</description>
     </item>
-    
     <item>
       <title>SSL/TLS Handshake, Hybrid Encryption and Public Key Infrastructure (PKI)</title>
       <link>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</link>
       <pubDate>Sat, 22 Jan 2022 14:00:33 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</guid>
       <description>Hybrid encryption, SSL/TLS handshake and Public Key Infrastructure (PKI) explained.</description>
     </item>
-    
   </channel>
 </rss>

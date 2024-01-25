@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mysql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
     <link>https://www.serhatdundar.com/tags/mysql/</link>
@@ -11,15 +11,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Apr 2017 11:44:19 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Apr 2017 11:44:19 +0200</lastBuildDate>
+    <atom:link href="https://www.serhatdundar.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Import Big MySQL Databases Faster</title>
       <link>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</link>
       <pubDate>Wed, 05 Apr 2017 11:44:19 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</guid>
       <description>Configuring InnoDB for faster MySQL imports.</description>
     </item>
-    
   </channel>
 </rss>

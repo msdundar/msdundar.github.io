@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>security on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
     <link>https://www.serhatdundar.com/tags/security/</link>
@@ -11,69 +11,56 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Sep 2022 20:10:16 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Sep 2022 20:10:16 +0200</lastBuildDate>
+    <atom:link href="https://www.serhatdundar.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securing Webhooks</title>
       <link>https://www.serhatdundar.com/posts/securing-webhooks/</link>
       <pubDate>Sun, 18 Sep 2022 20:10:16 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/securing-webhooks/</guid>
       <description>An overview and comparison of various webhook security methods</description>
     </item>
-    
     <item>
       <title>Deconstructing and Understanding an SSL Certificate</title>
       <link>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</link>
       <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</guid>
       <description>Deconstructing an SSL certificate and understanding components of it.</description>
     </item>
-    
     <item>
       <title>Storing Passwords in a Database: Hashing, Salts, and Peppers</title>
       <link>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</link>
       <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</guid>
       <description>Storing passwords securely in a database with hashing, salts, and peppers.</description>
     </item>
-    
     <item>
       <title>A Primitive Hashing Function in Go</title>
       <link>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</link>
       <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
       <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
     </item>
-    
     <item>
       <title>SSL/TLS Handshake, Hybrid Encryption and Public Key Infrastructure (PKI)</title>
       <link>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</link>
       <pubDate>Sat, 22 Jan 2022 14:00:33 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</guid>
       <description>Hybrid encryption, SSL/TLS handshake and Public Key Infrastructure (PKI) explained.</description>
     </item>
-    
     <item>
       <title>Symmetric and Asymmetric Encryption</title>
       <link>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</link>
       <pubDate>Fri, 21 Jan 2022 14:00:33 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</guid>
       <description>A detailed scenario-based comparison of symmetric and asymmetric encryption methods.</description>
     </item>
-    
     <item>
       <title>Encrypting Sensitive Data With Rails</title>
       <link>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</link>
       <pubDate>Mon, 01 Oct 2018 09:33:06 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</guid>
       <description>Encrypting sensitive data by only using native capabilities of Rails</description>
     </item>
-    
   </channel>
 </rss>

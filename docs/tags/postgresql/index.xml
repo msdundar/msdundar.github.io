@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>postgresql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
     <link>https://www.serhatdundar.com/tags/postgresql/</link>
@@ -11,33 +11,28 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Nov 2018 19:24:20 +0200</lastBuildDate><atom:link href="https://www.serhatdundar.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Nov 2018 19:24:20 +0200</lastBuildDate>
+    <atom:link href="https://www.serhatdundar.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rails and PostgreSQL: Types</title>
       <link>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</link>
       <pubDate>Fri, 09 Nov 2018 19:24:20 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</guid>
       <description>Using PostgreSQL types with Ruby on Rails.</description>
     </item>
-    
     <item>
       <title>Rails and PostgreSQL: Constraints</title>
       <link>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</link>
       <pubDate>Sat, 03 Nov 2018 15:24:20 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</guid>
       <description>Using PostgreSQL constraints with Ruby on Rails.</description>
     </item>
-    
     <item>
       <title>Tuning PostgreSQL Configuration</title>
       <link>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</link>
       <pubDate>Fri, 02 Nov 2018 11:16:48 +0200</pubDate>
-      
       <guid>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</guid>
       <description>Using pgtune for a fine-tuned PostgreSQL database.</description>
     </item>
-    
   </channel>
 </rss>
