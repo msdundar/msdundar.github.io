@@ -385,8 +385,7 @@ projects.
 
 Here are you can have a look:
 
-{{< figure src="kanarya-sm.png" link="https://github.com/msdundar/kanarya" attr= "https://github.com/msdundar/kanarya" attrlink= "https://github.com/msdundar/kanarya" >}}
-
+{{< figure src="assets/kanarya-sm.png" link="https://github.com/msdundar/kanarya" attr= "https://github.com/msdundar/kanarya" attrlink= "https://github.com/msdundar/kanarya" >}}
 
 ## References
 
