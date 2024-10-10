@@ -1,66 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>security on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-    <link>https://www.serhatdundar.com/tags/security/</link>
-    <description>Recent content in security on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
-    <image>
-      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Security on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>http://localhost:1313/tags/security/</link>
+    <description>Recent content in Security on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Sep 2022 20:10:16 +0200</lastBuildDate>
-    <atom:link href="https://www.serhatdundar.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securing Webhooks</title>
-      <link>https://www.serhatdundar.com/posts/securing-webhooks/</link>
+      <link>http://localhost:1313/posts/securing-webhooks/</link>
       <pubDate>Sun, 18 Sep 2022 20:10:16 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/securing-webhooks/</guid>
-      <description>An overview and comparison of various webhook security methods</description>
+      <guid>http://localhost:1313/posts/securing-webhooks/</guid>
+      <description>&lt;p&gt;In this post, I will focus on the rationale behind some popular webhook security methods and will try to explain&#xA;them in simple terms.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-basics-risks-and-measures&#34;&gt;1. Basics Risks and Measures&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-webhooks-can-be-set-to-leak-data-silently&#34;&gt;1.1. Webhooks can be set to leak data silently&lt;/h3&gt;&#xA;&lt;p&gt;Let’s assume you are a webhook provider and an attacker compromises the credentials of one of your clients. If your&#xA;platform doesn’t notify users when a webhook is created or updated - the attacker can create a webhook silently and&#xA;start leaking data without alerting anyone. This silent tunnel will let the attacker stay in the system longer&#xA;undetected. Therefore:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deconstructing and Understanding an SSL Certificate</title>
-      <link>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</link>
+      <link>http://localhost:1313/posts/deconstructing-and-understanding-an-ssl-certificate/</link>
       <pubDate>Tue, 25 Jan 2022 07:10:50 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/deconstructing-and-understanding-an-ssl-certificate/</guid>
-      <description>Deconstructing an SSL certificate and understanding components of it.</description>
+      <guid>http://localhost:1313/posts/deconstructing-and-understanding-an-ssl-certificate/</guid>
+      <description>&lt;p&gt;Checking SSL certificates on a browser is easy. Just click the green lock icon and you&amp;rsquo;re good to go. But what if&#xA;doing the same in a more hacker way? This is where &lt;code&gt;openssl&lt;/code&gt; comes into play.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start by checking the SSL certificate of this website:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl s_client -connect www.serhatdundar.com:443&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA&#xA;depth=1 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 High Assurance Server CA&#xA;depth=0 C = US, ST = California, L = San Francisco, O = &amp;#34;GitHub, Inc.&amp;#34;, CN = www.github.com&#xA;---&#xA;Certificate chain&#xA; 0 s:/C=US/ST=California/L=San Francisco/O=GitHub, Inc./CN=www.github.com&#xA;   i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA&#xA; 1 s:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA&#xA;   i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert High Assurance EV Root CA&#xA;---&#xA;Server certificate&#xA;-----BEGIN CERTIFICATE-----&#xA;MIIHMDCCBhigAwIBAgIQAkk+B/qeN1otu8YdlEMPzzANBgkqhkiG9w0BAQsFADBw&#xA;MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3&#xA;d3cuZGlnaWNlcnQuY29tMS8wLQYDVQQDEyZEaWdpQ2VydCBTSEEyIEhpZ2ggQXNz&#xA;dXJhbmNlIFNlcnZlciBDQTAeFw0yMDA1MDYwMDAwMDBaFw0yMjA0MTQxMjAwMDBa&#xA;MGoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T&#xA;YW4gRnJhbmNpc2NvMRUwEwYDVQQKEwxHaXRIdWIsIEluYy4xFzAVBgNVBAMTDnd3&#xA;dy5naXRodWIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsj49&#xA;...&#xA;-----END CERTIFICATE-----&#xA;subject=/C=US/ST=California/L=San Francisco/O=GitHub, Inc./CN=www.github.com&#xA;issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA&#xA;---&#xA;No client certificate CA names sent&#xA;Server Temp Key: ECDH, X25519, 253 bits&#xA;---&#xA;SSL handshake has read 3673 bytes and written 289 bytes&#xA;---&#xA;New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256&#xA;Server public key is 2048 bit&#xA;Secure Renegotiation IS supported&#xA;Compression: NONE&#xA;Expansion: NONE&#xA;No ALPN negotiated&#xA;SSL-Session:&#xA;    Protocol  : TLSv1.2&#xA;    Cipher    : ECDHE-RSA-AES128-GCM-SHA256&#xA;    Session-ID: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&#xA;    Session-ID-ctx:&#xA;    Master-Key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&#xA;    TLS session ticket lifetime hint: 7200 (seconds)&#xA;    TLS session ticket:&#xA;    0000 - xx xx 60 d0 86 88 c0 26-2e 67 c0 e0 01 84 09 ab   .,`....&amp;amp;.x......&#xA;    0010 - xx xx 95 f2 fa fa 1f f6-01 06 e3 99 23 2d 69 9a   i...........#-x.&#xA;    0020 - xx xx d1 f6 98 35 b5 f4-8f 91 47 b1 8e a6 d4 d2   *....6....G.....&#xA;    0030 - xx xx b2 f4 61 f1 b0 7d-43 cb 66 62 c6 15 52 ad   \*..x..}C.fb..R.&#xA;    0040 - xx xx c3 f9 a9 f3 f8 e7-f2 7f b8 d3 0e 02 d2 da   /...x...........&#xA;    0050 - xx xx 0f 8f c1 1c 6e b3-f0 ae 4c ac 4e f6 8d 7c   g.....x...L.N..|&#xA;    0060 - xx xx 3b 2a 77 b3 c2 f0-2b e3 9f 73 1e db 07 6c   /.;*x...+..s...l&#xA;    0070 - xx xx a3 b5 42 74 de 4b-55 73 15 cf b0 97 c7 84   &amp;lt;...Bx.KUs......&#xA;    0080 - xx xx 65 ee cc 68 35 68-76 ef 7b 4a 7b 41 b3 94   ..e..x5hv.{J{A..&#xA;    0090 - xx xx 57 3f 74 a8 e8 0a-ec de 8b 77 49 f9 33 b0   `0W?x......wI.3.&#xA;&#xA;    Start Time: 1643082971&#xA;    Timeout   : 7200 (sec)&#xA;    Verify return code: 0 (ok)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Let&amp;rsquo;s investigate this response piece by piece.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Storing Passwords in a Database: Hashing, Salts, and Peppers</title>
-      <link>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</link>
+      <link>http://localhost:1313/posts/storing-passwords-in-a-database/</link>
       <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</guid>
-      <description>Storing passwords securely in a database with hashing, salts, and peppers.</description>
+      <guid>http://localhost:1313/posts/storing-passwords-in-a-database/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;How do you store passwords in a database&amp;rdquo;&lt;/em&gt;? A very common question for back-end-oriented interviews. After conducting&#xA;hundreds of technical interviews on different levels, I can confidently say around 50% of the candidates can&amp;rsquo;t answer&#xA;this question. The most common answer I often got is&#xA;&lt;em&gt;&amp;ldquo;there is a package/gem/library we use, and it manages the password part&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Well, yes, frameworks, libraries, and packages cover most of the complexity nowadays, but I don&amp;rsquo;t accept this as an&#xA;excuse for not being curious about essentials. Frameworks, packages, libraries, tools, text editors - they come and go&#xA;all the time, but essentials just don&amp;rsquo;t. The ways we use to store passwords haven&amp;rsquo;t been changed much since I started&#xA;programming, which was 15 years ago.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Primitive Hashing Function in Go</title>
-      <link>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</link>
+      <link>http://localhost:1313/posts/a-primitive-hashing-function-in-go/</link>
       <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
-      <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
+      <guid>http://localhost:1313/posts/a-primitive-hashing-function-in-go/</guid>
+      <description>&lt;p&gt;Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable&#xA;amount of time and patience. However, they all have things in common: an input, a cryptographic algorithm, and an output.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I had a chance to study some popular cryptographic hash functions, such as&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/MD5&#34;&gt;MD5&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/SHA-1&#34;&gt;SHA-1&lt;/a&gt;, and tried to understand how&#xA;they really work. Wikipedia pages I linked include a considerable amount of information already, and more can be found&#xA;online, but what I want to do was understand similarities between them and write my own primitive hashing&#xA;function in Go.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSL/TLS Handshake, Hybrid Encryption and Public Key Infrastructure (PKI)</title>
-      <link>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</link>
+      <link>http://localhost:1313/posts/ssl-tls-handshake-hybrid-encryption/</link>
       <pubDate>Sat, 22 Jan 2022 14:00:33 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/ssl-tls-handshake-hybrid-encryption/</guid>
-      <description>Hybrid encryption, SSL/TLS handshake and Public Key Infrastructure (PKI) explained.</description>
+      <guid>http://localhost:1313/posts/ssl-tls-handshake-hybrid-encryption/</guid>
+      <description>&lt;h3 id=&#34;hybrid-encryption-symmetric-and-asymmetric-encryption-combined&#34;&gt;Hybrid Encryption: Symmetric and Asymmetric Encryption Combined&lt;/h3&gt;&#xA;&lt;p&gt;Both symmetric and asymmetric encryption has advantages and disadvantages. So, which one should we use? Well, nowadays&#xA;we often use them together. Asymmetric encryption is often used to exchange private keys between parties securely. In&#xA;other words, parties who would communicate establish an asymmetric encryption protocol in the beginning just to&#xA;exchange private keys. When the private key exchange is completed, they keep communicating by using symmetric&#xA;encryption - which is faster than asymmetric encryption.  This is also how SSL/TLS works.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Symmetric and Asymmetric Encryption</title>
-      <link>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</link>
+      <link>http://localhost:1313/posts/symmetric-and-asymmetric-encryption/</link>
       <pubDate>Fri, 21 Jan 2022 14:00:33 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/symmetric-and-asymmetric-encryption/</guid>
-      <description>A detailed scenario-based comparison of symmetric and asymmetric encryption methods.</description>
+      <guid>http://localhost:1313/posts/symmetric-and-asymmetric-encryption/</guid>
+      <description>&lt;h3 id=&#34;symmetric-encryption-private-key-cryptography&#34;&gt;Symmetric Encryption (Private Key Cryptography)&lt;/h3&gt;&#xA;&lt;p&gt;In symmetric encryption only a single key, in other words, a private key is used to encrypt and decrypt a message.&#xA;Symmetric encryption is also known as &amp;ldquo;Private Key Cryptography&amp;rdquo; as the whole encryption is only based on a private key.&lt;/p&gt;&#xA;&lt;p&gt;Some popular &lt;em&gt;symmetric&lt;/em&gt; encryption algorithms are:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Algorithm&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Cipher&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Key Size&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Block/State Size&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Popularity&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Notes&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AES&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Block&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;128, 192, or 256 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;128 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;The best one. Still in use.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Blowfish&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Block&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;32-448 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;64 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Still quite safe, but slower than AES.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Twofish&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Block&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;128, 192, or 256 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;128 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Still quite safe, but slower than AES.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DES&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Block&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;56 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;64 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Not considered as safe anymore.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3DES&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Block&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;112, or 168 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;64 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Not considered as safe anymore.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;RC4&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Stream&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;40-2048 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;2064 bits&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Not considered as safe anymore.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pros of symmetric encryption:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Encrypting Sensitive Data With Rails</title>
-      <link>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</link>
+      <link>http://localhost:1313/posts/encrypting-sensitive-data-with-rails/</link>
       <pubDate>Mon, 01 Oct 2018 09:33:06 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/encrypting-sensitive-data-with-rails/</guid>
-      <description>Encrypting sensitive data by only using native capabilities of Rails</description>
+      <guid>http://localhost:1313/posts/encrypting-sensitive-data-with-rails/</guid>
+      <description>&lt;p&gt;The most recent versions (5.1 and 5.2) of Ruby on Rails has shipped with a new&#xA;feature named as &lt;a href=&#34;https://edgeguides.rubyonrails.org/security.html#custom-credentials&#34;&gt;encrypted credentials&lt;/a&gt; which replaces the &lt;code&gt;secrets.yml&lt;/code&gt;, and enables you to keep sensitive data in an&#xA;encrypted file named as &lt;code&gt;config/credentials.yml.enc&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;However, this feature only works with a single file that is&#xA;&lt;code&gt;config/credentials.yml.enc&lt;/code&gt;. Recently we needed to add some data in our&#xA;repository, which we wanted to keep as encrypted, but that also didn&amp;rsquo;t really&#xA;fit into the &lt;code&gt;credentials.yml.enc&lt;/code&gt; conceptually.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

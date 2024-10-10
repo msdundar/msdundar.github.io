@@ -2,23 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-    <link>https://www.serhatdundar.com/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
-    <image>
-      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jan 2024 09:30:00 +0200</lastBuildDate>
-    <atom:link href="https://www.serhatdundar.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Work in Progress</title>
-      <link>https://www.serhatdundar.com/projects/dinazor/</link>
+      <link>http://localhost:1313/projects/dinazor/</link>
       <pubDate>Thu, 25 Jan 2024 09:30:00 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/projects/dinazor/</guid>
-      <description>To be announced&amp;hellip;</description>
+      <guid>http://localhost:1313/projects/dinazor/</guid>
+      <description>&lt;p&gt;To be announced&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

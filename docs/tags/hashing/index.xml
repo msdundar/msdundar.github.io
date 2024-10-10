@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hashing on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-    <link>https://www.serhatdundar.com/tags/hashing/</link>
-    <description>Recent content in hashing on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
-    <image>
-      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Hashing on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>http://localhost:1313/tags/hashing/</link>
+    <description>Recent content in Hashing on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jan 2022 01:30:33 +0200</lastBuildDate>
-    <atom:link href="https://www.serhatdundar.com/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Storing Passwords in a Database: Hashing, Salts, and Peppers</title>
-      <link>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</link>
+      <link>http://localhost:1313/posts/storing-passwords-in-a-database/</link>
       <pubDate>Mon, 24 Jan 2022 01:30:33 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/storing-passwords-in-a-database/</guid>
-      <description>Storing passwords securely in a database with hashing, salts, and peppers.</description>
+      <guid>http://localhost:1313/posts/storing-passwords-in-a-database/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;How do you store passwords in a database&amp;rdquo;&lt;/em&gt;? A very common question for back-end-oriented interviews. After conducting&#xA;hundreds of technical interviews on different levels, I can confidently say around 50% of the candidates can&amp;rsquo;t answer&#xA;this question. The most common answer I often got is&#xA;&lt;em&gt;&amp;ldquo;there is a package/gem/library we use, and it manages the password part&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Well, yes, frameworks, libraries, and packages cover most of the complexity nowadays, but I don&amp;rsquo;t accept this as an&#xA;excuse for not being curious about essentials. Frameworks, packages, libraries, tools, text editors - they come and go&#xA;all the time, but essentials just don&amp;rsquo;t. The ways we use to store passwords haven&amp;rsquo;t been changed much since I started&#xA;programming, which was 15 years ago.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Primitive Hashing Function in Go</title>
-      <link>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</link>
+      <link>http://localhost:1313/posts/a-primitive-hashing-function-in-go/</link>
       <pubDate>Sun, 23 Jan 2022 18:30:19 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/a-primitive-hashing-function-in-go/</guid>
-      <description>A primitive hashing function written in Go to demonstrate concepts such as an XOR machine.</description>
+      <guid>http://localhost:1313/posts/a-primitive-hashing-function-in-go/</guid>
+      <description>&lt;p&gt;Cryptographic hash functions are complex mathematical calculations. Therefore understanding them requires a considerable&#xA;amount of time and patience. However, they all have things in common: an input, a cryptographic algorithm, and an output.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I had a chance to study some popular cryptographic hash functions, such as&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/MD5&#34;&gt;MD5&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/SHA-1&#34;&gt;SHA-1&lt;/a&gt;, and tried to understand how&#xA;they really work. Wikipedia pages I linked include a considerable amount of information already, and more can be found&#xA;online, but what I want to do was understand similarities between them and write my own primitive hashing&#xA;function in Go.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

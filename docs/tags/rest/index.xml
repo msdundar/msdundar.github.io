@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rest on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-    <link>https://www.serhatdundar.com/tags/rest/</link>
-    <description>Recent content in rest on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
-    <image>
-      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Rest on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>http://localhost:1313/tags/rest/</link>
+    <description>Recent content in Rest on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 May 2021 20:10:16 +0200</lastBuildDate>
-    <atom:link href="https://www.serhatdundar.com/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/rest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Review: The Design of Web APIs</title>
-      <link>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</link>
+      <link>http://localhost:1313/posts/book-review-the-design-of-web-apis/</link>
       <pubDate>Sun, 02 May 2021 20:10:16 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/book-review-the-design-of-web-apis/</guid>
-      <description>A book review of The Design of Web APIs.</description>
+      <guid>http://localhost:1313/posts/book-review-the-design-of-web-apis/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Title: The Design of Web APIs&#xA;ISBN13: 978-1617295102&#xA;Publisher: Manning&#xA;WWW: https://www.manning.com/books/the-design-of-web-apis&#xA;Pages: 389&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I recently had a chance to read &amp;ldquo;The Design of Web APIs&amp;rdquo; from Manning Publishing.&#xA;The book is inspired by &amp;ldquo;The Design of Everyday Things&amp;rdquo;, the legendary writing&#xA;of Donald Norman, that I still own as an original hard-copy printed in 1990.&#xA;I like this masterpiece not because I studied Donald Norman quite a lot during&#xA;my PhD studies (especially during the&#xA;&lt;a href=&#34;https://hci.cc.metu.edu.tr/en/&#34;&gt;Human-Computer Interaction&lt;/a&gt; course), but also&#xA;it&amp;rsquo;s still very relevant writing.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

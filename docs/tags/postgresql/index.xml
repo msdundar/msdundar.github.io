@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>postgresql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-    <link>https://www.serhatdundar.com/tags/postgresql/</link>
-    <description>Recent content in postgresql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
-    <image>
-      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Postgresql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>http://localhost:1313/tags/postgresql/</link>
+    <description>Recent content in Postgresql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Nov 2018 19:24:20 +0200</lastBuildDate>
-    <atom:link href="https://www.serhatdundar.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rails and PostgreSQL: Types</title>
-      <link>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</link>
+      <link>http://localhost:1313/posts/rails-and-postgresql-types/</link>
       <pubDate>Fri, 09 Nov 2018 19:24:20 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-types/</guid>
-      <description>Using PostgreSQL types with Ruby on Rails.</description>
+      <guid>http://localhost:1313/posts/rails-and-postgresql-types/</guid>
+      <description>&lt;p&gt;During &lt;a href=&#34;https://github.com/omu/nokul&#34;&gt;nokul&lt;/a&gt; we&amp;rsquo;ve heavily implemented PostgreSQL features into our&#xA;Rails application. Unfortunately, ActiveRecord doesn&amp;rsquo;t come with constraint support for PostgreSQL,&#xA;but &lt;a href=&#34;https://github.com/nullobject/rein&#34;&gt;rein&lt;/a&gt; does a fantastic job covering what&amp;rsquo;s missing in ActiveRecord.&#xA;We believe that, one shouldn&amp;rsquo;t rely on a web application, that is very prone for human-error, when it comes&#xA;to data integrity. Therefore our PostgreSQL tables included various constraints and limits.&lt;/p&gt;&#xA;&lt;p&gt;Below you will find a set of rules that we&amp;rsquo;ve investigated, implemented and battle tested with various types.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails and PostgreSQL: Constraints</title>
-      <link>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</link>
+      <link>http://localhost:1313/posts/rails-and-postgresql-constraints/</link>
       <pubDate>Sat, 03 Nov 2018 15:24:20 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/rails-and-postgresql-constraints/</guid>
-      <description>Using PostgreSQL constraints with Ruby on Rails.</description>
+      <guid>http://localhost:1313/posts/rails-and-postgresql-constraints/</guid>
+      <description>&lt;p&gt;During &lt;a href=&#34;https://github.com/omu/nokul&#34;&gt;nokul&lt;/a&gt; we&amp;rsquo;ve heavily implemented PostgreSQL features into our&#xA;Rails application. Unfortunately, ActiveRecord doesn&amp;rsquo;t come with constraint support for PostgreSQL,&#xA;but &lt;a href=&#34;https://github.com/nullobject/rein&#34;&gt;rein&lt;/a&gt; does a fantastic job covering what&amp;rsquo;s missing in ActiveRecord.&#xA;We believe that, one shouldn&amp;rsquo;t rely on a web application, that is very prone for human-error, when it comes&#xA;to data integrity. Therefore our PostgreSQL tables included various constraints and limits.&lt;/p&gt;&#xA;&lt;p&gt;Below you will find a set of rules that we&amp;rsquo;ve investigated, implemented and battle tested with various types.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tuning PostgreSQL Configuration</title>
-      <link>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</link>
+      <link>http://localhost:1313/posts/tuning-postgresql-configuration/</link>
       <pubDate>Fri, 02 Nov 2018 11:16:48 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/tuning-postgresql-configuration/</guid>
-      <description>Using pgtune for a fine-tuned PostgreSQL database.</description>
+      <guid>http://localhost:1313/posts/tuning-postgresql-configuration/</guid>
+      <description>&lt;h2 id=&#34;configuration-file&#34;&gt;Configuration File&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;RAM amounts defined below doesn&amp;rsquo;t represent the total amount of memory&#xA;available for your machine, instead, it represents what PostgreSQL can use&#xA;maximum.&lt;/li&gt;&#xA;&lt;li&gt;Decribed configuration requires PostgreSQL &amp;gt;= 10. Remove &lt;code&gt;max_parallel_workers&lt;/code&gt;&#xA;for older versions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The configuration file is usually located at &lt;code&gt;/etc/postgresql/$VERSION/main/postgresql.conf&lt;/code&gt;&#xA;in Debian-derivatives. For locating the file in other operating systems, you can&#xA;use &lt;code&gt;psql&lt;/code&gt; as follows:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;psql -U postgres&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;show config_file;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tracking-query-statistics&#34;&gt;Tracking Query Statistics&lt;/h2&gt;&#xA;&lt;p&gt;Enable the &lt;code&gt;pg_stat&lt;/code&gt; extension, if you are interested in tracking query statistics:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

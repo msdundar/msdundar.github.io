@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>recap on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-    <link>https://www.serhatdundar.com/tags/recap/</link>
-    <description>Recent content in recap on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
-    <image>
-      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Recap on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>http://localhost:1313/tags/recap/</link>
+    <description>Recent content in Recap on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Jan 2023 02:00:00 +0200</lastBuildDate>
-    <atom:link href="https://www.serhatdundar.com/tags/recap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/recap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A recap of 2023</title>
-      <link>https://www.serhatdundar.com/posts/a-recap-of-2023/</link>
+      <link>http://localhost:1313/posts/a-recap-of-2023/</link>
       <pubDate>Sun, 08 Jan 2023 02:00:00 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/a-recap-of-2023/</guid>
-      <description>Highlights, lowlights and moments from 2023</description>
+      <guid>http://localhost:1313/posts/a-recap-of-2023/</guid>
+      <description>&lt;p&gt;Looking back, 2023 wasn&amp;rsquo;t a bad year at all. There are many events that I&amp;rsquo;m happy about and that I want to log and&#xA;many moments I want to remember.&lt;/p&gt;&#xA;&lt;h2 id=&#34;habits&#34;&gt;Habits&lt;/h2&gt;&#xA;&lt;p&gt;As a smoker for 17 years who tried all possible quitting methods, such as nicotine gums, e-cigarettes/vapors, and&#xA;varenicline medicines (chantix®/champix®, etc.), I finally stopped smoking. It’s hard to explain where I got the&#xA;motivation from, but one day I decided not to smoke and I’ve not smoked since then. While I quit smoking, I also quit&#xA;synthetic sugar at the same time, and I believe this really helped with my quitting process. Combining to quit these&#xA;two habits worked for me as my cravings were mainly about synthetic sugar, instead of nicotine.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

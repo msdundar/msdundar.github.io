@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mysql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-    <link>https://www.serhatdundar.com/tags/mysql/</link>
-    <description>Recent content in mysql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
-    <image>
-      <title>Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
-      <url>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.serhatdundar.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Mysql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</title>
+    <link>http://localhost:1313/tags/mysql/</link>
+    <description>Recent content in Mysql on Blog of Serhat M. Dündar | Ruby, Rails, Golang, PostgreSQL, AWS, Security</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Apr 2017 11:44:19 +0200</lastBuildDate>
-    <atom:link href="https://www.serhatdundar.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Import Big MySQL Databases Faster</title>
-      <link>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</link>
+      <link>http://localhost:1313/posts/import-big-mysql-databases-faster/</link>
       <pubDate>Wed, 05 Apr 2017 11:44:19 +0200</pubDate>
-      <guid>https://www.serhatdundar.com/posts/import-big-mysql-databases-faster/</guid>
-      <description>Configuring InnoDB for faster MySQL imports.</description>
+      <guid>http://localhost:1313/posts/import-big-mysql-databases-faster/</guid>
+      <description>&lt;p&gt;I recently had to import some quite large SQL dumps to my local machine for data&#xA;analysis purposes. There were 10 different &lt;code&gt;.sql&lt;/code&gt; dumps in total, and each of&#xA;them were sized more than 100GB.&lt;/p&gt;&#xA;&lt;h2 id=&#34;naive-attempt&#34;&gt;Naive Attempt&lt;/h2&gt;&#xA;&lt;p&gt;First of all, I tried to import each by using the &lt;code&gt;&amp;lt;&lt;/code&gt; operator:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mysql some_database &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; some_dump.&lt;span style=&#34;color:#66d9ef&#34;&gt;sql&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Unsurprisingly, each task took very long to finish, approximately 6-7 hours&#xA;per dump file, in a brand new laptop with i7 CPU, 16GB RAM and 1TB SSD.&#xA;Since I didn&amp;rsquo;t have 60 hours for importing all, I had to take a look for&#xA;solutions that can potentially speed up the process.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
